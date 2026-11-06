@@ -1,0 +1,1108 @@
+Date: Fri, 6 Nov 2026 14:13:52 +0000 (UTC)
+Message-ID: <1477840504.5.1793974432027@9d80805810bc>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_930698181.1793974432026"
+
+------=_Part_4_930698181.1793974432026
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>DevOps Recommendation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>DevOps Recommendation</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"401d5e56-30e9-43a8-a87a-232b38eafa1d">Reassess curre=
+nt Solution Segmentation structure.</p>
+<p local-id=3D"8eebb7d9-cf8b-4210-ae11-ecfeb0e33172">Concerns around scalab=
+ility with current solution segmentation structure.</p>
+<p local-id=3D"f49350b3-ba5e-48db-b4f8-9fd9a8e99baf"><strong>Current Soluti=
+on Segmentation Model:</strong></p>
+<p local-id=3D"749b130c-38f2-4c65-abda-8e886eff8ae4">(4 Main Solutions)</p>
+<p local-id=3D"bd810f7d-08c1-4fc1-a320-7b81049bf693">WRB_Configurations</p>
+<p local-id=3D"d51f2b5b-3e9d-497f-8c21-346752b8f27e">WRB_Assemblies</p>
+<p local-id=3D"63ab7a2a-037d-4d2b-bbfe-ae3691bd07c2">WRB_Automations</p>
+<p local-id=3D"a6edcd01-c109-4c7b-bac0-827eb0c3bf52">WRB_Security</p>
+<p local-id=3D"8318367b-08e5-4d3e-8f8e-93e88b07eabc"></p>
+<p local-id=3D"8d7ba733-99df-4c21-999b-dcd5aa5c2cf4"><strong>Proposed Model=
+:</strong></p>
+<p local-id=3D"748f81aa-e478-45fa-93be-c0e5a8c27b08">(6 Main Solutions)</p>
+<p local-id=3D"12b59c23-8075-46b2-bf7b-bf83d8268641"><strong>WRB_Configurat=
+ions</strong>(Customizations):</p>
+<ul local-id=3D"401c09b4-13f6-4259-8ab5-28d8154a7d56">
+<li local-id=3D"748aea3a-8df5-4d93-bf4e-e64aa1a73378">
+<p local-id=3D"deec7167-2fb3-40dc-8e76-5abc80392184">Web Resources</p>
+<ul local-id=3D"b2f1cf4d-5a0a-44cc-a35c-0eb1c5e4d1db">
+<li local-id=3D"e3c84750-99c7-4c99-8c90-9a522c7223fe">
+<p local-id=3D"cf0b96a0-8137-474b-a61e-06e26bd44aa4">JS</p>
+</li>
+<li local-id=3D"755dfb6f-17d5-404d-b420-ee8a8efacdbb">
+<p local-id=3D"2effcc08-3400-42e6-9938-b6a89245a1aa">HTML</p>
+</li>
+<li local-id=3D"1da89004-3411-40d8-82f4-3475834a91d6">
+<p local-id=3D"31175f84-738b-4c32-9bc1-4b4199c2d349">React</p>
+</li>
+<li local-id=3D"8c0b8235-c61b-4f0a-ae26-4c46e4b156bc">
+<p local-id=3D"249fc0e1-b80a-427d-952c-162891b3b7eb">iFrame</p>
+</li>
+</ul>
+</li>
+<li local-id=3D"c21d4913-982a-46a9-82be-64bfba72f810">
+<p local-id=3D"3c8529ec-16a0-4d19-8e6f-412c7f85d5f0">PCF Controls</p>
+</li>
+<li local-id=3D"8af94d3f-9f23-4420-8c87-7c5ebae07cd9">
+<p local-id=3D"835cd393-a073-43f1-865b-65206746dafc">Business Rules</p>
+</li>
+<li local-id=3D"053f0b62-e7aa-47e5-a867-1cbad67af53b">
+<p local-id=3D"f60d2391-e4c4-44a6-ba99-2b94fc9cb53f">Relationship</p>
+</li>
+<li local-id=3D"82f5d4ef-5333-4da5-82b4-76c0f5e56ba8">
+<p local-id=3D"87aa3e7b-5936-4fcd-86bf-8c1eb845e421">Dashboard</p>
+</li>
+<li local-id=3D"882f7608-108f-419c-9af3-1f81f7300213">
+<p local-id=3D"beff4cd1-b106-4bc7-afa0-97162d8b8109">View</p>
+</li>
+<li local-id=3D"98855ec7-2761-49a2-8d3c-32d21f89c9df">
+<p local-id=3D"5554ae3b-2dbf-4699-b40e-d9a1fd61d8bb">Non-Base Tables and Ex=
+tensions</p>
+<ul local-id=3D"5a4f8c8f-4e95-4eb1-a7ef-51bf0a767884">
+<li local-id=3D"c2eae76b-7cd2-449d-aafc-73f76ef1e3b4">
+<p local-id=3D"19d353c5-1744-4669-abba-edb3bcf53049">Producer Code</p>
+</li>
+<li local-id=3D"ac32a91e-1292-46e6-8f3b-cb5d155ed72b">
+<p local-id=3D"f9a7e0f0-e406-4c41-8075-ada752a237a9">Opportunity Type</p>
+</li>
+<li local-id=3D"b16423d7-1fe6-4ad4-a166-5f74dfcbd866">
+<p local-id=3D"a079ce61-8f8f-4cf4-b0c5-59e71607e928">Agency Type</p>
+</li>
+<li local-id=3D"eadb1e9b-d929-4b25-a5ca-79d9fb25d63c">
+<p local-id=3D"53f9ac95-f3b4-4558-b33f-eaf0773b6595">NAISC</p>
+</li>
+<li local-id=3D"7c7f0642-47c3-4c34-8746-ea79cc58247e">
+<p local-id=3D"a7f3b191-02c2-4ad2-b0cd-62c068723979">SAIC</p>
+</li>
+<li local-id=3D"da7b85d4-dc67-47fa-9483-cca0300f06f9">
+<p local-id=3D"6bf67348-ad0d-45ad-a7d3-db8483629471">OU Appetite Class</p>
+</li>
+<li local-id=3D"86331ba9-47e4-4962-baa7-cbd0f31bec03">
+<p local-id=3D"37a960c5-5d7f-4c25-9686-42ee0a4f47b4">OU Appetite State</p>
+</li>
+<li local-id=3D"6d207ea7-d3fe-4bff-b8c1-81fc3ae860fe">
+<p local-id=3D"8858558a-363d-4cde-8b50-57ea69a7f5e9">Territory Assignment</=
+p>
+</li>
+<li local-id=3D"e47499cc-c641-4ef7-8fe3-26d5b1e1ea54">
+<p local-id=3D"c2f093db-1ed8-4ea7-96d1-c4e9b963bb53">Territory Team Member<=
+/p>
+</li>
+<li local-id=3D"3b499e69-3cd6-4bd5-9441-b5da337d2050">
+<p local-id=3D"5d0fd013-8abc-4fed-ac83-68d4fe0d76ae">Trip</p>
+</li>
+<li local-id=3D"a3e76184-d79e-43e5-a589-8e9e9852de9c">
+<p local-id=3D"ffbe9542-ee8f-4992-a0e9-9db5ff3f5c22">Route</p>
+</li>
+</ul>
+</li>
+</ul>
+<p local-id=3D"0e15bb47-3447-40a9-bb3c-2558943f7171"><strong>WRB_Assemblies=
+</strong>:</p>
+<ul local-id=3D"d26a0968-4aaf-4e95-b3b8-e8d60f449e83">
+<li local-id=3D"8e3f446d-9ac2-4d72-ad0c-0cd8d0ab82f4">
+<p local-id=3D"6c386bbd-f050-49d8-aaf1-fe103d16f2c3">Plugin Assemblies</p>
+</li>
+<li local-id=3D"220d674b-72dc-433c-8837-cd3958a6599f">
+<p local-id=3D"a7f12855-179d-4c03-bfef-df7843afd395">Custom Actions</p>
+</li>
+<li local-id=3D"f102fe30-685e-4edb-ac52-f6c3383bf384">
+<p local-id=3D"a3d5d0e9-37c1-4d51-98ba-a039af336246">Custom Workflows</p>
+</li>
+</ul>
+<p local-id=3D"06a829c9-2b63-4377-bbe9-fc8eee7315fb"><strong>WRB_Automation=
+s</strong>:</p>
+<ul local-id=3D"a95ab4ff-b040-4da1-89fa-95cd372f66f3">
+<li local-id=3D"5a876998-fa6b-4408-9144-8fd26510b8a8">
+<p local-id=3D"5f62ec7c-9d6b-470e-832e-f61f82017d9c">PowerAutomate Flows</p=
+>
+<ul local-id=3D"5c6879b2-d646-4cea-9865-30dff686ea0a">
+<li local-id=3D"adccdea6-5d4d-4a28-8e42-6391f68fd458">
+<p local-id=3D"ab83fb36-2908-42bc-bdf1-3f18ff5ad2f9">Environment Variables<=
+/p>
+</li>
+<li local-id=3D"722257a7-91ef-456d-a79e-d4a9f625cb25">
+<p local-id=3D"a35d41bc-9444-4745-8a67-e1ff14e30850">Custom Connectors</p>
+</li>
+<li local-id=3D"e438fd64-6e12-4096-99db-6f3e2f569b54">
+<p local-id=3D"ffc5bb3f-1622-41ce-883f-6f1ca34222ee">Connection References<=
+/p>
+</li>
+</ul>
+</li>
+<li local-id=3D"3f279115-cd7d-4359-a38a-c228b2817b3d">
+<p local-id=3D"60f7d083-32f6-4db8-9e80-8c3e3fd11b5a">Processes</p>
+<ul local-id=3D"7bcc9ada-6e07-4e9e-bb0b-3f9d3f46c192">
+<li local-id=3D"2970d960-de10-4530-9be8-7990444d6077">
+<p local-id=3D"9f5b28ca-582d-4a2e-9bd9-09998119bcff">OOB Workflows</p>
+</li>
+<li local-id=3D"ac658905-d8ad-4b8a-8287-05992860cbc8">
+<p local-id=3D"f1da7e5e-cd08-4d26-a02c-949bd5c09f6d">Custom Workflow Proces=
+s</p>
+</li>
+</ul>
+</li>
+<li local-id=3D"b4d4a29b-ba83-4e0a-8df2-acbfe9269266">
+<p local-id=3D"b50af7a4-52e9-49e0-a9dd-80faf3f88a89">SLAs</p>
+<ul local-id=3D"3a349ecd-ca7e-49c5-ac58-be027577b22c">
+<li local-id=3D"fdc26d84-d84a-4e75-adae-585542e47b7b">
+<p local-id=3D"9b8cacbd-ecc4-4cbf-a7a0-2a6e42602d36">SLA Items</p>
+</li>
+<li local-id=3D"b943be66-7f49-4d55-9643-ae088cc3ae38">
+<p local-id=3D"44178195-8af6-4a53-8dc2-d8d6c57f0b2b">KPI Instances</p>
+</li>
+</ul>
+</li>
+</ul>
+<p local-id=3D"9731fe43-65de-47e6-af54-13a81db6004d"><strong>WRB_Security</=
+strong>:</p>
+<ul local-id=3D"c9e3657f-9ace-44cb-a8cb-4951bb3ceff7">
+<li local-id=3D"87d81fba-5e8d-4773-ae75-049f15e2cbec">
+<p local-id=3D"8ee9daa7-3847-4a36-8bd1-28a5490b32e9">Security Roles</p>
+</li>
+<li local-id=3D"88f726c3-24b3-4d2c-ba6b-7078c437cc9c">
+<p local-id=3D"a61aee81-4dc4-413d-b6c0-7bf19574f139">Field Level Security</=
+p>
+</li>
+</ul>
+<p local-id=3D"f49b8b6d-e965-409b-96e7-db80d8b01a80"><strong>WRB_Base&amp;E=
+xtensions</strong>:</p>
+<ul local-id=3D"45b253ea-960c-4df4-b7f8-e00ff48cbb99">
+<li local-id=3D"504dd5c9-682d-41ae-a4b6-90415644d0cc">
+<p local-id=3D"f39809eb-6185-4f1e-aedd-72a5ae01aa48">Web Resources</p>
+<ul local-id=3D"fc63e50a-89be-46bd-972b-8be9edc73d3e">
+<li local-id=3D"7e86f726-8900-4de7-8c02-065fef3adf30">
+<p local-id=3D"be26d5d6-755d-4b1d-a260-e1c670279454">JS</p>
+</li>
+<li local-id=3D"3a92fa48-44c1-45e5-9cce-80cef0b7ecbe">
+<p local-id=3D"a8eb5844-482d-4c1e-b70a-7776f581c1c3">HTML</p>
+</li>
+<li local-id=3D"dd82bed5-1cfa-4b12-b7f5-23752d2cd0a7">
+<p local-id=3D"c7eb06f1-6294-40c6-8195-5a2f44b92b2d">React</p>
+</li>
+<li local-id=3D"68336ce1-860e-4543-a4e5-7d08978826fe">
+<p local-id=3D"650f9e12-9375-4b40-8fa8-65a3e5a7f44c">iFrame</p>
+</li>
+</ul>
+</li>
+<li local-id=3D"c307b5f1-4530-4f98-8656-cf3973df4b07">
+<p local-id=3D"613fe3ec-028a-431f-abc2-06eb93231978">PCF Controls</p>
+</li>
+<li local-id=3D"3362569c-6e17-43df-a91d-bbcdf3453745">
+<p local-id=3D"940ff4ff-ca13-4e7e-9983-9f7835a04718">Business Rules</p>
+</li>
+<li local-id=3D"a5ea36a8-918f-4312-ab14-1a987368eef3">
+<p local-id=3D"ba7b9cd0-d8a6-47f7-8a00-56ff41ac1315">Relationship</p>
+</li>
+<li local-id=3D"8388e073-3331-4ae8-a8fd-6700ae4d03ff">
+<p local-id=3D"8e66bcb6-2104-464e-a55f-8eb769fe5ac2">Dashboard</p>
+</li>
+<li local-id=3D"7c819523-9546-4fc2-931e-0b646fd14595">
+<p local-id=3D"0ac5dbe5-a59b-4ad2-8199-269d32547030">View</p>
+</li>
+<li local-id=3D"c3561cdc-9201-4b3a-bd2a-1876711222f4">
+<p local-id=3D"d5d2cb73-ad0d-4e11-97f6-762d96fb8b95">BPF</p>
+</li>
+<li local-id=3D"190e7756-405f-4cde-8faa-90e924c4d87b">
+<p local-id=3D"05fc690e-9bef-4a51-b79e-536f5599b13a">Tables:</p>
+<ul local-id=3D"7c126a83-f8bd-487d-8749-e47fb67ffd90">
+<li local-id=3D"a9c56874-10cf-4a76-a08e-9e2457f1324f">
+<p local-id=3D"2469589a-8924-4d23-95ed-a67c282efb40">Account</p>
+</li>
+<li local-id=3D"8dd718b3-a5fb-4467-a3aa-e2af0ddb5ae1">
+<p local-id=3D"e6020309-00e6-407c-9270-dd1b4eb2acdf">Contact</p>
+</li>
+<li local-id=3D"4274948c-6cd8-49da-a249-628c600703e6">
+<p local-id=3D"0d562b89-f108-4370-8c1d-e19c706510e3">Account Extensions</p>
+</li>
+<li local-id=3D"9ffaf2e7-523b-4528-92a0-29247be82c08">
+<p local-id=3D"cea2f56e-78fc-4bc5-9d79-4259937f87c3">Contact Extension</p>
+</li>
+<li local-id=3D"f938296b-0ed4-47ef-badf-d085b084071d">
+<p local-id=3D"1ba6bd6f-51b1-4a0d-aba6-54026441874f">Opportunity</p>
+</li>
+<li local-id=3D"8a9ddaae-10db-4cf9-8339-9fc1bfd26f39">
+<p local-id=3D"f4d49704-f124-4a4f-90b0-842c8a782bee">Activity</p>
+</li>
+<li local-id=3D"382d61c9-28d7-4032-90ac-10233cca6841">
+<p local-id=3D"ad546eeb-5ca0-489e-994d-ef07b52fe02b">Emails</p>
+</li>
+<li local-id=3D"997631f8-7826-400c-ad30-cfb8fb3e38ed">
+<p local-id=3D"5f40428b-fed1-4b2d-928f-4f59341f26d3">Leads</p>
+</li>
+<li local-id=3D"206acc8a-5dc2-439d-a91e-6aa5221e7b5e">
+<p local-id=3D"88de3a64-33bb-4daf-a583-e46d529fe2b0">Case</p>
+</li>
+<li local-id=3D"65bb6e78-5192-4adb-a7c1-657fc61e8391">
+<p local-id=3D"394c7fce-b0f5-4712-8e54-6d2a75ff30fd">Team</p>
+</li>
+<li local-id=3D"f2aa53e4-7fe8-4d32-82f3-a086f69e194f">
+<p local-id=3D"3c4153f5-5f89-4edb-be05-2dd9ca970566">User</p>
+</li>
+</ul>
+</li>
+</ul>
+<p local-id=3D"92b9e11f-2492-42da-981b-bef563c560ec"><strong>WRB_Apps</stro=
+ng>:</p>
+<ul local-id=3D"5ddd6cc3-5b14-4f6c-b442-15fe35bcb8f8">
+<li local-id=3D"1e1cbd3d-8bf0-4933-bafd-77262fd8ad8b">
+<p local-id=3D"350b3dbd-07e5-4131-8137-e34efd4dbbaa">Sales Hub</p>
+</li>
+<li local-id=3D"a49214cc-869e-4468-abba-bc65872fa595">
+<p local-id=3D"c9c589e1-fabf-456b-b968-c5311bd59b60">Sitemap</p>
+</li>
+</ul>
+<p local-id=3D"8ebb4555-5a0f-4c48-9e18-94f57ea5c4fc"></p>
+<p local-id=3D"eb2287cd-34d0-4164-8b3a-fa5e39c7285f"><strong>Reassess Devop=
+s Process for WRB:</strong></p>
+<p local-id=3D"5b4aa6eb-7a9b-4fd9-9e40-4bfef965beca">In order to avoid deve=
+lopment conflicts and overwriting committed un-released changes to main sol=
+ution file(s). Recommend patch solutioning for keeping development work org=
+anized and scalable. Solution patches only contain subcomponents of entitie=
+s rather than the entire schema and all related assets. This keeps the solu=
+tion lightweight and only includes the components that are created or updat=
+ed. Example: create a new account field and update the existing account for=
+m.</p>
+<p local-id=3D"8e3efd77-31dc-4b22-b268-0e0ce1863e1b">More Information on Pa=
+tching: <a class=3D"external-link" data-card-appearance=3D"inline" href=3D"=
+https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premise=
+s/developer/create-patches-simplify-solution-updates?view=3Dop-9-1" local-i=
+d=3D"896cc1eb-a68e-4c15-b1d6-38af18b94366" rel=3D"nofollow">https://learn.m=
+icrosoft.com/en-us/dynamics365/customerengagement/on-premises/developer/cre=
+ate-patches-simplify-solution-updates?view=3Dop-9-1</a></p>
+<p local-id=3D"82fd4664-6d28-4ecc-ae15-acaac07b9465"><a class=3D"external-l=
+ink" data-card-appearance=3D"inline" href=3D"https://learn.microsoft.com/en=
+-us/power-platform/alm/segmented-solutions-alm" local-id=3D"a01418e4-3cb4-4=
+625-8133-dbe82cea2fe8" rel=3D"nofollow">https://learn.microsoft.com/en-us/p=
+ower-platform/alm/segmented-solutions-alm</a></p>
+<ol start=3D"1" local-id=3D"1c1f4611-fb38-4ac7-a8dd-30f4abba227e">
+<li local-id=3D"bb505965-a89b-49c0-93e1-9be171caf535">
+<p local-id=3D"9afb6e39-06e4-4d99-b82d-c9f8f46fe28a"><strong>Dev1 </strong>=
+</p>
+</li>
+</ol>
+<p local-id=3D"0538eb89-442e-4f2e-94e2-d1d915e1c6c8"><em>Create Patch of ma=
+in Solutions</em></p>
+<p local-id=3D"0752b135-987b-4f23-ba71-cac76db04142"><em><strong>Scenarios:=
+</strong></em></p>
+<p local-id=3D"acac0127-6157-41a5-b0b4-15667a9cfc93"><em>Developer 1</em></=
+p>
+<ul local-id=3D"109ac160-666d-4e37-b4f1-b487a32be013">
+<li local-id=3D"4f133e9e-fc55-4ce1-bc83-2d6693a6e7fe">
+<p local-id=3D"15eed3d8-d602-475a-bf63-6665b8faf3d1"><em>Build - MATT0001: =
+Add a new column Agency Revenue on the Account Form which should be visible=
+ only to the Excess and Surplus BU</em></p>
+<ul local-id=3D"c78afd8c-d4c1-425c-89d9-306893a95253">
+<li local-id=3D"0093ceaa-c91e-4e68-aa20-e045e7f83f8f">
+<p local-id=3D"0f89b504-7d8e-4684-984b-1efbd6ffa9c7"><em>Create a patch: <s=
+trong>WRB_BaseExtensions</strong>_MATT0001</em></p>
+<ul local-id=3D"f7fdf113-eaeb-4c91-b5ea-6238498c7cd0">
+<li local-id=3D"df58d3d8-70cd-4689-80e5-82fc4627c3ed">
+<p local-id=3D"90afc45e-6959-4714-be2a-6085339c5b71"><em>Add Account Form -=
+ BTS Account Form</em></p>
+<ul local-id=3D"bdb4b6e7-ca47-4f61-9aed-6f93d4dfff1b">
+<li local-id=3D"df58d3d8-70cd-4689-80e5-82fc4627c3ed">
+<p local-id=3D"aacf13b3-6816-4f27-9a74-598786706b15"><em>Create new field w=
+rb_agencyrevenue</em></p>
+</li>
+</ul>
+</li>
+<li local-id=3D"b6880f3c-6e2b-4b1a-b74c-59337b72c231">
+<p local-id=3D"9311b481-7906-4b75-85a0-5e0450bc7911"><em>Add AccountMain.js=
+</em></p>
+<ul local-id=3D"75e85972-8385-4399-a35a-20ef594b311c">
+<li local-id=3D"b6880f3c-6e2b-4b1a-b74c-59337b72c231">
+<p local-id=3D"8b10ee3d-b000-4e95-8ecc-68a882daf510"><em>add function to sh=
+ow/hide based on user BU</em></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p local-id=3D"373bb20a-24f0-4f28-a990-e82674beda7a"><em>Developer 2</em></=
+p>
+<ul local-id=3D"0788815d-d422-42e4-abca-000cd1203667">
+<li local-id=3D"b88edb70-ce24-4b88-b033-83be57386639">
+<p local-id=3D"93a5b965-edf5-46c4-b035-28a2ee868f68"><em>Build - MATT0002: =
+When I create a new Opportunity and when I select and account, the Territor=
+y must be auto populated based on Account Territory mapping.</em></p>
+<ul local-id=3D"b79d0cf7-b6ec-4e0f-927b-8794a9596f9c">
+<li local-id=3D"ad7d85d7-f584-427c-a146-964db1577034">
+<p local-id=3D"cd555611-096d-49ca-abcf-e0b0ea23895b"><em>Create a patch: <s=
+trong>WRB_Automations</strong>_MATT0002</em></p>
+<ul local-id=3D"624dec21-0af2-49c0-b2cb-00aded8bdf9d">
+<li local-id=3D"42cdfd9c-bc35-4af9-ad6e-27b9e313e5d9">
+<p local-id=3D"9d0c976d-dd94-4163-bfba-e34ea5b81194"><em>Create a Powerauto=
+mate flow populate the Territory field on the Opportunity Record. </em></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p local-id=3D"76d74fa1-3983-4e86-8855-4708098d4a19"></p>
+<ol start=3D"2" local-id=3D"4002e5bc-601a-4f73-8268-dff173bba5ea">
+<li local-id=3D"83fc64f1-9c9d-4df6-a14f-4747a62c3bb8">
+<p local-id=3D"cdc9cf16-231f-43e8-8285-08f31f767513"><strong>Dev2</strong><=
+/p>
+<ol start=3D"1" local-id=3D"3f24cc52-860a-4d18-abcb-c433e5bc5765">
+<li local-id=3D"aa3d2fee-b477-451b-a461-514e3b010418">
+<p local-id=3D"648d25c4-0557-48bd-93fd-d8f2940e0f69">Trigger Condition</p>
+<ol start=3D"1" local-id=3D"2c7c6099-edb0-4efe-92db-fe4738d710f4">
+<li local-id=3D"0b7de9e8-bef2-424f-957c-1f0ebac550e6">
+<p local-id=3D"1b247b30-5cff-4fbc-a509-f337004886a0">Ready for QA</p>
+</li>
+</ol>
+</li>
+<li local-id=3D"d1c01458-574c-43a5-b8cc-5367ef0ccb43">
+<p local-id=3D"d0a42730-3116-4302-bd6c-c880e157de20">Run Pipeline to deploy=
+ following solutions once ready to TEST once Pull Request or Build Review i=
+s complete.</p>
+<ol start=3D"1" local-id=3D"36c47082-f139-4164-831b-04a06ecfdedd">
+<li local-id=3D"427c0bd6-2317-4c28-a68f-5f43e05e0928">
+<p local-id=3D"a67256b2-8bc7-481c-89e8-3fe7eee27b34"><strong>WRB_BaseExtens=
+ions</strong>_MATT0001</p>
+</li>
+<li local-id=3D"179e222f-892c-46f1-80e7-ad1c167826f0">
+<p local-id=3D"bec41b37-3e77-4fe6-864f-711cdbf7f4aa"><strong>WRB_Automation=
+s</strong>_MATT0002</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li local-id=3D"9e55c158-0f87-4493-9d54-9e18d2b4644e">
+<p local-id=3D"89659625-aa0e-43d0-bd13-9f51c422ea92"><strong>TEST</strong><=
+/p>
+<ol start=3D"1" local-id=3D"4d00e4e6-7aa8-4619-adba-e76880a8db2c">
+<li local-id=3D"526b3e6d-9a34-4d65-b79d-4404a51fafd9">
+<p local-id=3D"02322dc4-5776-4986-88ce-9dc4d7446dd8">Trigger Condition</p>
+<ol start=3D"1" local-id=3D"7352fc7c-e767-4779-bcea-957279f34b89">
+<li local-id=3D"0ad49a37-2dc0-4497-87f1-fbce9cde3bca">
+<p local-id=3D"a6c7bd20-281f-4ce3-a558-55b0211b9bf6">QA Complete in JIRA</p=
+>
+</li>
+</ol>
+</li>
+<li local-id=3D"c7c2fbc6-b2bf-4ed4-97b4-0f9d86ed1c8d">
+<p local-id=3D"4f855534-3ed5-4e2a-9602-3022b4012249">Run Pipeline to deploy=
+ following solutions to UAT once QA signoff is complete</p>
+<ol start=3D"1" local-id=3D"07815acf-f997-443d-bcfc-ff5c62adfffa">
+<li local-id=3D"d79c23c1-56a8-44e3-8576-3a7314fad457">
+<p local-id=3D"6006b034-c7d2-4694-be2c-e13c96a954f4"><strong>WRB_BaseExtens=
+ions</strong>_MATT0001</p>
+</li>
+<li local-id=3D"d5c76334-c41c-4e5f-a357-699564625d08">
+<p local-id=3D"9588da96-11a2-4054-ba23-395095fb2ada"><strong>WRB_Automation=
+s</strong>_MATT0002</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li local-id=3D"0cf5a140-46ea-4f43-9e73-df9f7a2f84ac">
+<p local-id=3D"aa7f9d2d-e32f-4b88-8614-d0b76dcea07a"><strong>UAT</strong></=
+p>
+<ol start=3D"1" local-id=3D"9716215b-2d23-4570-a063-127bc5dc1881">
+<li local-id=3D"7e706115-c4e4-45a3-8714-1691a1c9056d">
+<p local-id=3D"9848bcaa-23e7-4361-8587-9bceafe3eea5">Trigger Condition</p>
+<ol start=3D"1" local-id=3D"835dd5eb-fe61-4b3a-8391-d508eb15ed2b">
+<li local-id=3D"b1176ce4-e031-4b5e-a52f-5ce8881e2167">
+<p local-id=3D"b45ee879-9117-4aa9-b023-890dd7eb18d5">UAT is Complete in JIR=
+A</p>
+</li>
+</ol>
+</li>
+<li local-id=3D"3fa64a2d-3c1e-4ea4-bb37-006e8d492a58">
+<p local-id=3D"9a5e6fdb-a852-4298-8b7a-1ca3fc638116">Run Pipeline to deploy=
+ following solutions to Stage once UAT signoff is complete</p>
+<ol start=3D"1" local-id=3D"f93f62bd-8c66-4a85-b151-55c6c2f3893f">
+<li local-id=3D"6e5e7b3a-426b-44c0-8407-ae3cfe3073bb">
+<p local-id=3D"d675190e-de37-4432-88cf-272033bde2b1"><strong>WRB_BaseExtens=
+ions</strong>_MATT0001</p>
+</li>
+<li local-id=3D"00fdb986-9a99-476b-af5a-2f1fb367a269">
+<p local-id=3D"9cf21f21-3f5f-4273-bf24-254dc584ae9a"><strong>WRB_Automation=
+s</strong>_MATT0002</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li local-id=3D"16da6782-8b06-47c0-86b5-de4391eaaf9f">
+<p local-id=3D"b5978b83-9406-43da-9e64-c1553da0e614"><strong>Stage</strong>=
+</p>
+<ol start=3D"1" local-id=3D"91453a88-4dab-4f8e-9d5f-fab1dbabc923">
+<li local-id=3D"717bdf99-2664-414d-93ee-77858334cfc9">
+<p local-id=3D"02291c89-e8e5-4dcd-982c-9be27b6644b5">Merge patch solutions =
+with Main Solution(s)</p>
+<ol start=3D"1" local-id=3D"43cb2eb3-d80a-47f6-b82f-a0e9ba9f5ad1">
+<li local-id=3D"f1baffe8-d2d1-47d9-a4c2-6114d253f1be">
+<p local-id=3D"a854396f-9858-4f28-be1a-1b40becdc9eb"><strong>WRB_BaseExtens=
+ions</strong></p>
+</li>
+<li local-id=3D"24716de0-5fef-4b78-9e13-a0247f21a487">
+<p local-id=3D"500e3914-7054-4876-a688-eb54745e4db4"><strong>WRB_Automation=
+s</strong></p>
+</li>
+</ol>
+</li>
+<li local-id=3D"311dd6e9-8ae7-40c7-9228-5c6670cd8521">
+<p local-id=3D"9532de7b-7d99-4692-a16b-97d4ea6e9a8f">Create Change Request<=
+/p>
+</li>
+<li local-id=3D"45fb3875-e194-4387-bcb5-a6bf721ce71c">
+<p local-id=3D"c6df9163-1381-430a-abdd-0c3e1c36ef02">CAB Review</p>
+</li>
+<li local-id=3D"ec2dd97c-ada9-4b7f-87c4-37ad622793f1">
+<p local-id=3D"08a85051-aec3-4290-9e62-d99807344418">Auto trigger to pipeli=
+ne to deploy following solutions to PROD once CAB Approval is complete and =
+deployment window is scheduled</p>
+<ol start=3D"1" local-id=3D"210016d2-6d3d-4f84-b008-192f8f35b2da">
+<li local-id=3D"d8c95abe-568f-46eb-ba77-356dfd832570">
+<p local-id=3D"57b10265-0a28-4c04-87f6-5392a083718d"><strong>WRB_BaseExtens=
+ions</strong></p>
+</li>
+<li local-id=3D"0f526715-a3db-42fc-affc-79f9fe88916c">
+<p local-id=3D"df9022a5-eb7a-4900-a460-9d30cf418b89"><strong>WRB_Automation=
+s</strong></p>
+</li>
+</ol>
+</li>
+<li local-id=3D"434e6176-8fc4-439d-a38f-fc612f960cf7">
+<p local-id=3D"2caa5685-61d4-427c-af09-3cf3b0f25f2b">Auto merge solution pa=
+tch files in DEV1, QA and UAT at end of sprint. Use the <code>CloneAsSoluti=
+onRequest</code> or <code>CloneAsSolutionAction</code> to merge all patches=
+ from the parent.</p>
+</li>
+</ol>
+</li>
+<li local-id=3D"2ed00498-5852-4997-9cf9-9bf119fefb9a">
+<p local-id=3D"664a4fa2-840f-41df-a71c-bc22faf3255d"><strong>PROD</strong><=
+/p>
+<ol start=3D"1" local-id=3D"2f1608da-fa0b-4a92-8f9d-10238c9a2691">
+<li local-id=3D"c20dba19-cf69-4d44-afb2-eb1e14bfe8e5">
+<p local-id=3D"55207ca3-a5e8-4f61-a72a-7efbdda460c2">Smoke Testing</p>
+</li>
+<li local-id=3D"18ac8092-7777-4a58-a4aa-202c15c83a74">
+<p local-id=3D"d1f13a8e-b2f0-4cf3-8ed7-a9753d4cdf8d">Stakeholder Signoff</p=
+>
+</li>
+<li local-id=3D"a8f69443-0b10-4ad5-89ab-e82d66d65d2f">
+<p local-id=3D"8b0b5bb2-9252-4045-9354-3b8451211cf7">Close Change Request</=
+p>
+</li>
+</ol>
+</li>
+</ol>
+<span class=3D"confluence-embedded-file-wrapper image-center-wrapper conflu=
+ence-embedded-manual-size"><img class=3D"confluence-embedded-image image-ce=
+nter" alt=3D"Release and Delivery (5).jpeg" width=3D"468" loading=3D"lazy" =
+src=3D"447c1facca8f43b2c8a3cf721a65dd7e207d88e4900664618e0357b7c0b537aa" da=
+ta-image-src=3D"https://wrberkley.atlassian.net/wiki/download/attachments/1=
+481015553/Release%20and%20Delivery%20(5).jpeg?version=3D1&amp;modificationD=
+ate=3D1766760429984&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"1747"=
+ data-width=3D"4780" data-unresolved-comment-count=3D"0" data-linked-resour=
+ce-id=3D"1483702330" data-linked-resource-version=3D"1" data-linked-resourc=
+e-type=3D"attachment" data-linked-resource-default-alias=3D"Release and Del=
+ivery (5).jpeg" data-base-url=3D"https://wrberkley.atlassian.net/wiki" data=
+-linked-resource-content-type=3D"image/jpeg" data-linked-resource-container=
+-id=3D"1481015553" data-linked-resource-container-version=3D"11" data-media=
+-id=3D"2d6dec8a-1bd8-49de-af17-ba6ce5ce2d96" data-media-type=3D"file" heigh=
+t=3D"171"></span>
+<p local-id=3D"44ddb066-fb82-40af-a90a-adacb4adbbd3"><a class=3D"external-l=
+ink" data-card-appearance=3D"block" href=3D"https://lucid.app/lucidchart/63=
+79792d-5b67-4c47-a290-47bba081d97d/edit?viewport_loc=3D-803%2C20%2C3872%2C2=
+299%2C0_0&amp;invitationId=3Dinv_254b4dd5-d7a3-4b28-b983-1d1a89d9fcbd" loca=
+l-id=3D"224358e7-b46f-429d-a020-0f57be2e8577" rel=3D"nofollow">https://luci=
+d.app/lucidchart/6379792d-5b67-4c47-a290-47bba081d97d/edit?viewport_loc=3D-=
+803%2C20%2C3872%2C2299%2C0_0&amp;invitationId=3Dinv_254b4dd5-d7a3-4b28-b983=
+-1d1a89d9fcbd</a></p>
+    </div>
+</body>
+</html>
+------=_Part_4_930698181.1793974432026
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/447c1facca8f43b2c8a3cf721a65dd7e207d88e4900664618e0357b7c0b537aa
+
+/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAD6AqwDAREAAhEBAxEB/9sAQwAIBgYHBgUIBwcHCQkI
+CgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJ
+CQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIy/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+gAo
+AKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAgN3EpIJII9qA
+D7ZD/eP5UAH2yH+8fyoAPtkP94/lQAfbIf7x/KgA+2Q/3j+VAB9sh/vH8qAD7ZD/AHj+VAB9sh/v
+H8qAD7ZD/eP5UAH2yH+8fyoAPtkP94/lQAfbIf7x/KgA+2Q/3j+VAB9sh/vH8qAD7ZD/AHj+VAB9
+sh/vH8qAD7ZD/eP5UAH2yH+8fyoAPtkP94/lQAfbIf7x/KgA+2Q/3j+VAB9sh/vH8qAD7ZD/AHj+
+VAEqOsiBl6GgB1ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUA
+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
+B//Z
+------=_Part_4_930698181.1793974432026--

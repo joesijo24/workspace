@@ -1,0 +1,544 @@
+Date: Fri, 6 Nov 2026 14:11:58 +0000 (UTC)
+Message-ID: <648639198.11.1793974318853@1afe7be64472>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_428268216.1793974318853"
+
+------=_Part_10_428268216.1793974318853
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Synapse Link Runbook</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Synapse Link Runbook</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"d395880c2cb8" id=3D"SynapseLinkRunbook-PowerPlatfor=
+mEnterprisePolicyDeploymentandGovernancePlan">Power Platform Enterprise Pol=
+icy Deployment and Governance Plan</h2>
+<h3 local-id=3D"6c06bd795bbb" id=3D"SynapseLinkRunbook-Objective">Objective=
+</h3>
+<p local-id=3D"4b00099df742">Establish a repeatable, human-executed deploym=
+ent process for creating and linking Power Platform Enterprise Policies to =
+Dataverse environments.</p>
+<h3 local-id=3D"b1d34d2a280a" id=3D"SynapseLinkRunbook-RunBook">Run Book</h=
+3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"align-start" data-local-id=
+=3D"56f81aae-6b74-4f95-bbcf-5df7eaf70ad9" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 422.0px;">
+<col style=3D"width: 408.0px;">
+<col style=3D"width: 415.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 415.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"193b17957fa6">
+<th data-local-id=3D"a6068b56bc3f" class=3D"confluenceTh">
+<p local-id=3D"673440e1a734"><strong>Task</strong></p>
+</th>
+<th data-local-id=3D"969f5dc0d569" class=3D"confluenceTh">
+<p local-id=3D"101d19b8a518"><strong>Identity</strong></p>
+</th>
+<th data-local-id=3D"eafecbea9280" class=3D"confluenceTh">
+<p local-id=3D"665a28b639a1"><strong>Team</strong></p>
+</th>
+<th data-local-id=3D"ff1ccd89ba36" class=3D"confluenceTh">
+<p local-id=3D"1c4f3bd16376"><strong>Env</strong></p>
+</th>
+<th data-local-id=3D"5933d11e8634" class=3D"confluenceTh">
+<p local-id=3D"2f714c3c93dd"><strong>Notes</strong></p>
+</th>
+</tr>
+<tr data-local-id=3D"03fa5190adc7">
+<td data-local-id=3D"55445939f2e8" class=3D"confluenceTd">
+<p local-id=3D"7b543c93af93">Register Provider &amp; Create Enterprise Poli=
+cy</p>
+</td>
+<td data-local-id=3D"66298b225292" class=3D"confluenceTd">
+<p local-id=3D"720c9106eae4">ACL-DNA-helix_dataversexport_O</p>
+<p local-id=3D"d0736905dbb7">DEV: adm-dmurphy</p>
+<p local-id=3D"e3fe4cd5d621">INT/TEST/PROD: adm-mbriganti</p>
+</td>
+<td data-local-id=3D"ae521d304d5f" class=3D"confluenceTd">
+<p local-id=3D"5cadd1defaba">Power BI Admin</p>
+</td>
+<td data-local-id=3D"aac3e3106612" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"1"><span class=3D"placeholder-=
+inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"2"><span class=3D"placeholder-inline-tasks">DEV<=
+/span></li>
+<li data-inline-task-id=3D"3"><span class=3D"placeholder-inline-tasks">INT<=
+/span></li>
+<li data-inline-task-id=3D"4"><span class=3D"placeholder-inline-tasks">TEST=
+</span></li>
+<li data-inline-task-id=3D"5"><span class=3D"placeholder-inline-tasks">PROD=
+</span></li>
+</ul>
+</td>
+<td data-local-id=3D"704397ba08bc" class=3D"confluenceTd">
+<p local-id=3D"b888eca44ff7">PowerShell Script</p>
+<p local-id=3D"ba2ba7e4fd41">Script will be source controlled in ADO under =
+Infra</p>
+<p local-id=3D"815e77546cbf">The Powershell Cmdlet performs a check for pro=
+vider registration when creating a policy. If the provider is not registere=
+d it performs the registration before creating the policy, so these steps a=
+re combined.</p>
+</td>
+</tr>
+<tr data-local-id=3D"4938b7d7409e">
+<td data-local-id=3D"fc9b6afea0a8" class=3D"confluenceTd">
+<p local-id=3D"1d369242bb92">Link Enterprise Policy to Dataverse Environmen=
+t</p>
+</td>
+<td data-local-id=3D"275e9c05b540" class=3D"confluenceTd">
+<p local-id=3D"2a3d740deca1">ACL-DNA-helix_dataversexport_O</p>
+<p local-id=3D"e4283c52f1c6">DEV: adm-dmurphy</p>
+<p local-id=3D"0e888699d67c">INT/TEST/PROD: adm-mbriganti</p>
+</td>
+<td data-local-id=3D"fcc966e5ea06" class=3D"confluenceTd">
+<p local-id=3D"96589b58f285">Power BI Admin</p>
+</td>
+<td data-local-id=3D"2401e63eac0d" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"6"><span class=3D"placeholder-=
+inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"7"><span class=3D"placeholder-inline-tasks">DEV<=
+/span></li>
+<li data-inline-task-id=3D"8"><span class=3D"placeholder-inline-tasks">INT<=
+/span></li>
+<li data-inline-task-id=3D"9"><span class=3D"placeholder-inline-tasks">TEST=
+</span></li>
+<li data-inline-task-id=3D"10"><span class=3D"placeholder-inline-tasks">PRO=
+D</span></li>
+</ul>
+</td>
+<td data-local-id=3D"ff3e930799a0" class=3D"confluenceTd">
+<p local-id=3D"3a13011050e1">PowerShell Script</p>
+<p local-id=3D"7787bf797daf">Script will be source controlled in ADO under =
+Infra</p>
+<p local-id=3D"70d8ebc4e69a"><a href=3D"https://wrberkley.atlassian.net/wik=
+i/x/P4VqhQ" rel=3D"nofollow">Enterprise Policy Details</a></p>
+</td>
+</tr>
+<tr data-local-id=3D"6136b0ab0a81">
+<td data-local-id=3D"ee741c0fba0e" class=3D"confluenceTd">
+<p local-id=3D"429cc7b9da6d">Configure Synapse Link for Dataverse Environme=
+nt</p>
+</td>
+<td data-local-id=3D"9867468d26b3" class=3D"confluenceTd">
+<p local-id=3D"cc46ba39f699">ACL-DNA-helix_dataversexport_O</p>
+<p local-id=3D"0a1f6daf9d09">POC: adm-dmurphy</p>
+<p local-id=3D"204d8fc5e938">DEV : svc-ent-r-pwpdyn02</p>
+<p local-id=3D"29dc06c900a5">INT: svc-ent-t-pwpdyn02</p>
+<p local-id=3D"300128beb7b2">TEST: svc-ent-s-pwpdyn02</p>
+<p local-id=3D"2e3fe130a56d">PROD: svc-ent-v-pwpdyn02</p>
+</td>
+<td data-local-id=3D"f16cea9f0781" class=3D"confluenceTd">
+<p local-id=3D"103e38768203">Dataverse Admin (BTS Bus Sys)</p>
+</td>
+<td data-local-id=3D"2236872c3857" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"11"><span class=3D"placeholder=
+-inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"12"><span class=3D"placeholder-inline-tasks">DEV=
+</span></li>
+<li data-inline-task-id=3D"13"><span class=3D"placeholder-inline-tasks">INT=
+</span></li>
+<li data-inline-task-id=3D"14"><span class=3D"placeholder-inline-tasks">TES=
+T</span></li>
+<li data-inline-task-id=3D"15"><span class=3D"placeholder-inline-tasks">PRO=
+D</span></li>
+</ul>
+</td>
+<td data-local-id=3D"cfa38d14a593" class=3D"confluenceTd">
+<p local-id=3D"5580a460769a">Power Apps UI</p>
+<p local-id=3D"b7235d925281"><a href=3D"https://wrberkley.atlassian.net/wik=
+i/spaces/DDAT/pages/2238414989/Dynamics+365+CRM+Synapse+Links" data-linked-=
+resource-id=3D"2238414989" data-linked-resource-version=3D"7" data-linked-r=
+esource-type=3D"page">Synapse Link Details</a></p>
+<p local-id=3D"b6ea1f7124bf">Configuring the link dynamically creates the A=
+zure Storage Container (folder) in the specified Azure Storage Account. The=
+ Container (folder) name is dynamically generated and cannot be predicted.<=
+/p>
+</td>
+</tr>
+<tr data-local-id=3D"74c508406d5a">
+<td data-local-id=3D"1a7335ee1fbf" class=3D"confluenceTd">
+<p local-id=3D"1caab02caae0">Create Databricks Dynamics 365 Connection &amp=
+; apply permissions</p>
+</td>
+<td data-local-id=3D"296e4175bb1b" class=3D"confluenceTd">
+<p local-id=3D"9f894bed0729">POC: spn-dna-dv2-terraform</p>
+<p local-id=3D"c4a40bbe4b0b">DEV : spn-dna-dv2-terraform</p>
+<p local-id=3D"37b20eef11b3">INT: spn-dna-it2-terraform</p>
+<p local-id=3D"7323b5c610bc">TEST: spn-dna-tt2-terraform</p>
+<p local-id=3D"d1b960dcb9f0">PROD: spn-dna-pd2-terraform</p>
+</td>
+<td data-local-id=3D"da2bc34e1108" class=3D"confluenceTd">
+<p local-id=3D"3a4a581bd943">DNA OPS</p>
+</td>
+<td data-local-id=3D"75c36b5eb8e8" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"16"><span class=3D"placeholder=
+-inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"17"><span class=3D"placeholder-inline-tasks">DEV=
+</span></li>
+<li data-inline-task-id=3D"18"><span class=3D"placeholder-inline-tasks">INT=
+</span></li>
+<li data-inline-task-id=3D"19"><span class=3D"placeholder-inline-tasks">TES=
+T</span></li>
+<li data-inline-task-id=3D"20"><span class=3D"placeholder-inline-tasks">PRO=
+D</span></li>
+</ul>
+</td>
+<td data-local-id=3D"8bd81afa0e0c" class=3D"confluenceTd">
+<p local-id=3D"3924a776157d"><a href=3D"https://wrberkley.atlassian.net/wik=
+i/spaces/DDAT/pages/2238481627/Dynamics+365+CRM+DBX+Connections" data-linke=
+d-resource-id=3D"2238481627" data-linked-resource-version=3D"2" data-linked=
+-resource-type=3D"page">Dynamics 365 Connection Details</a></p>
+<p local-id=3D"27457f865ccc">Manual ( Automate in the future)</p>
+<ul local-id=3D"25623e4b8bdd">
+<li local-id=3D"c27737d468e6">
+<p local-id=3D"59293baf078b">AFTER Storage Account Private Endpoint has bee=
+n configured.</p>
+</li>
+<li local-id=3D"932343a524a9">
+<p local-id=3D"b301523ecb21">AFTER the Synapse Link is configured can this =
+step be completed. It requires the dynamically created container name as an=
+ input.</p>
+</li>
+<li local-id=3D"75352260bd39">
+<p local-id=3D"a77b0d961047">Grant USE CONNECTION Permission to the ACL-EST=
+-d365crm_RW</p>
+</li>
+</ul>
+</td>
+</tr>
+<tr data-local-id=3D"fe5cb10c6b84">
+<td data-local-id=3D"e83ff41d7fc1" class=3D"confluenceTd">
+<p local-id=3D"6687ad7611cb">Create Databricks External Location for Dynami=
+cs 365 Container</p>
+</td>
+<td data-local-id=3D"06806717d7aa" class=3D"confluenceTd">
+<p local-id=3D"24949f0173df">POC: spn-dna-dv2-terraform</p>
+<p local-id=3D"b257ad71dc24">DEV : spn-dna-dv2-terraform</p>
+<p local-id=3D"5263d5fd4063">INT: spn-dna-it2-terraform</p>
+<p local-id=3D"c188238a1d35">TEST: spn-dna-tt2-terraform</p>
+<p local-id=3D"8644e3efe730">PROD: spn-dna-pd2-terraform</p>
+</td>
+<td data-local-id=3D"7a1d74865139" class=3D"confluenceTd">
+<p local-id=3D"a91372429105">DNA OPS</p>
+</td>
+<td data-local-id=3D"b00b8ddd2f81" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"31"><span class=3D"placeholder=
+-inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"32"><span class=3D"placeholder-inline-tasks">DEV=
+</span></li>
+<li data-inline-task-id=3D"33"><span class=3D"placeholder-inline-tasks">INT=
+</span></li>
+<li data-inline-task-id=3D"34"><span class=3D"placeholder-inline-tasks">TES=
+T</span></li>
+<li data-inline-task-id=3D"35"><span class=3D"placeholder-inline-tasks">PRO=
+D</span></li>
+</ul>
+</td>
+<td data-local-id=3D"acd170fa3b12" class=3D"confluenceTd">
+<ul local-id=3D"c916e4fc0bf4">
+<li local-id=3D"1f56da87ffbe">
+<p local-id=3D"096b73c4c1f8">AFTER the Synapse Link is configured can this =
+step be completed. It requires the dynamically created container name as an=
+ input.</p>
+</li>
+<li local-id=3D"44348697a1a0">
+<p local-id=3D"6027f144b867">Each environment will have an External locatio=
+n that maps to the corresponding dynamically created Storage Container used=
+ in the DBX Dynamics 365 Connection created in the prior step.</p>
+</li>
+</ul>
+<p local-id=3D"8e1178c75120">The External location will allow the developme=
+nt team to access and browse the Azure Storage Container from DBX without h=
+aving direct access to the Storage Account or Azure Portal.</p>
+</td>
+</tr>
+<tr data-local-id=3D"833584f8992f">
+<td data-local-id=3D"230af72f644e" class=3D"confluenceTd">
+<p local-id=3D"8d7abd89f2dd">Create Dynamics 365 Ingestion Pipeline</p>
+</td>
+<td data-local-id=3D"8f9a5f21e823" class=3D"confluenceTd">
+<p local-id=3D"1737623a7895">POC: adm-dmurphy</p>
+<p local-id=3D"556d21a4f29b">DEV: ACL-EST-d365crm_RW (members)</p>
+<p local-id=3D"4fdc4378c9d7">INT: spn-dna-it2-terraform (via ADO)</p>
+<p local-id=3D"9b01f8b302a5">TEST: spn-dna-tt2-terraform (via ADO)</p>
+<p local-id=3D"3fd59825a0e1">PROD: spn-dna-pd2-terraform (via ADO)</p>
+</td>
+<td data-local-id=3D"1a5b60ea02bb" class=3D"confluenceTd">
+<p local-id=3D"d49fc299e74d">ESTech</p>
+</td>
+<td data-local-id=3D"b645e97b47bc" class=3D"confluenceTd">
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"2243758064">
+<li class=3D"checked" data-inline-task-id=3D"26"><span class=3D"placeholder=
+-inline-tasks">POC</span></li>
+<li data-inline-task-id=3D"27"><span class=3D"placeholder-inline-tasks">DEV=
+</span></li>
+<li data-inline-task-id=3D"28"><span class=3D"placeholder-inline-tasks">INT=
+</span></li>
+<li data-inline-task-id=3D"29"><span class=3D"placeholder-inline-tasks">TES=
+T</span></li>
+<li data-inline-task-id=3D"30"><span class=3D"placeholder-inline-tasks">PRO=
+D</span></li>
+</ul>
+</td>
+<td data-local-id=3D"f1de75ee8b5e" class=3D"confluenceTd">
+<p local-id=3D"34a8a36094c7">Dev team will use the Add Data wizard to creat=
+e an initial lakeflow connect pipeline then modify the config in dev.</p>
+<p local-id=3D"a88aaab457c1">Upper environments will use config deployed vi=
+a bundle framework and ADO.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p local-id=3D"366de9343e37">Troubleshooting Access in the Future: Once thi=
+s initial setup is completed the Owner role for the Subscriptions will be r=
+emoved, Owner on the Resource Group and Storage Account will remain. This S=
+HOULD allow the creation of additional Enterprise Policies and Synapse Link=
+s in these Subscriptions in the future. If an issue arises, the team should=
+ re-add Owner at the Subscription level to troubleshoot the problem.</p>
+</div>
+</div>
+<p local-id=3D"dfd5e8464307"></p>
+<p local-id=3D"23100c821fe7"></p>
+<p local-id=3D"1de996c2817f"></p>
+<p local-id=3D"14a9265b4e08"></p>
+<p local-id=3D"ae6c83ac3a57"></p>
+<p local-id=3D"d1ebb738a18f"></p>
+    </div>
+</body>
+</html>
+------=_Part_10_428268216.1793974318853--

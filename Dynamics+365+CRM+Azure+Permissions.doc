@@ -1,0 +1,710 @@
+Date: Fri, 6 Nov 2026 14:11:36 +0000 (UTC)
+Message-ID: <1741003582.9.1793974296214@1afe7be64472>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_8_750640493.1793974296214"
+
+------=_Part_8_750640493.1793974296214
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Dynamics 365 CRM Azure Permissions</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Dynamics 365 CRM Azure Permissions</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"d395880c2cb8" id=3D"Dynamics365CRMAzurePermissions-=
+PowerPlatformEnterprisePolicyDeploymentandGovernancePlan">Power Platform En=
+terprise Policy Deployment and Governance Plan</h2>
+<h3 local-id=3D"6c06bd795bbb" id=3D"Dynamics365CRMAzurePermissions-Objectiv=
+e">Objective</h3>
+<p local-id=3D"3f400a138a31">Support a secure deployment process for creati=
+ng and linking Power Platform Enterprise Policies to Dataverse environments=
+ while:</p>
+<ul local-id=3D"91ce92d2-aa4e-4620-a7eb-ba6145a92998">
+<li local-id=3D"d1be17f7-8e9c-4b20-a70d-6b03291b149e">
+<p local-id=3D"bced21eeca44">Leveraging Azure RBAC group-based administrati=
+on.</p>
+</li>
+<li local-id=3D"9f4341c3-1865-4036-969f-570b19231d09">
+<p local-id=3D"c936153e99b5">Minimizing individual Azure role assignments.<=
+/p>
+</li>
+<li local-id=3D"c6c59e6d-3bda-4a4b-94f6-69e2e3f01642">
+<p local-id=3D"3ed96604f258">Maintaining existing Power Platform Administra=
+tor ownership within the DNA organization.</p>
+</li>
+<li local-id=3D"cdaccbf6-51e6-4bf1-94f6-72ef7a073046">
+<p local-id=3D"b28e3f7b23fa">Limit the need to grant elevated Azure or Powe=
+r Platform permissions to the BTS Collab Tech or Dataverse Owners.</p>
+</li>
+<li local-id=3D"11048345-44d5-45b3-8e54-41f795ac3d20">
+<p local-id=3D"9117047372c5">Supporting a scalable SDLC-aligned Dataverse-t=
+o-Databricks Synapse Link architecture.</p>
+</li>
+</ul>
+<h3 local-id=3D"a59ad032910d" id=3D"Dynamics365CRMAzurePermissions-KeyConsi=
+derations">Key Considerations</h3>
+<p local-id=3D"89fd9c84d1ff">Some steps within the complete lifecycle of es=
+tablishing the Synapse Link, particularly initial configuration of the Syna=
+pse Link, require the Owner role on Azure resources or the tenant Level Pow=
+er Platform Administrator role. Because these are highly privileged permiss=
+ions it is key that the operations plan not require these be granted outsid=
+e DNA.</p>
+<h3 local-id=3D"d9b9b5ece176" id=3D"Dynamics365CRMAzurePermissions-Summaryo=
+fRequiredOperationsandPermissions">Summary of Required Operations and Permi=
+ssions</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1174" data-layout=3D"align-start" data-local-id=
+=3D"0db9bc62-2607-46b5-9b2d-f1039ca3f253" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 316.0px;">
+<col style=3D"width: 434.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 284.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"606aa5b7-4a98-4e21-a6a3-28db5839d036">
+<th data-local-id=3D"8b26c047-fe58-4694-8190-04bb322f9f44" class=3D"conflue=
+nceTh">
+<p local-id=3D"223f7932170c">Operation</p>
+</th>
+<th data-local-id=3D"112e2841-fd7c-4284-98b6-7bce93f81cb2" class=3D"conflue=
+nceTh">
+<p local-id=3D"8f1243d4fd3d">Required Permissions</p>
+</th>
+<th data-local-id=3D"74763777-267d-4a54-bfb0-3315818a480a" class=3D"conflue=
+nceTh">
+<p local-id=3D"41fda5444bd5">Team</p>
+</th>
+<th data-local-id=3D"036c525b-7901-405e-aa5c-ad588e2a1ec1" class=3D"conflue=
+nceTh">
+<p local-id=3D"c707acbd440d">Frequency</p>
+</th>
+</tr>
+<tr data-local-id=3D"6f4822b2-4c3b-43c9-a06e-a3c677ba2add">
+<th data-local-id=3D"959f44a3-b111-42cf-8b9c-07597845eb5d" class=3D"conflue=
+nceTh">
+<p local-id=3D"0588e09a1165"><strong>Provider Registration &amp; Feature En=
+ablement </strong></p>
+</th>
+<td data-local-id=3D"0fc14885-4c4f-4e4e-8803-77de165b3744" class=3D"conflue=
+nceTd">
+<p local-id=3D"733707c667b1"><strong><span style=3D"color: rgb(0,102,68);">=
+Azure Subscription Owner*</span></strong></p>
+<ul local-id=3D"5bf3d4ab-2e9d-4b5c-9f85-0f027ca2dd29">
+<li local-id=3D"6c9c0a49-600c-4aa3-b1e8-dd9a006aab97">
+<p local-id=3D"f86449f87ecf">DNA Subscriptions</p>
+</li>
+</ul>
+</td>
+<td data-local-id=3D"b1a354fc-c1a6-4712-9038-8582529e3f04" class=3D"conflue=
+nceTd">
+<p local-id=3D"02e318d096e6">Power Platform Admin</p>
+</td>
+<td data-local-id=3D"558acdd3-de39-4afb-b5ce-9b8d93b200f1" class=3D"conflue=
+nceTd">
+<p local-id=3D"89bd883dcfc6">Once per subscription (by definition)</p>
+</td>
+</tr>
+<tr data-local-id=3D"0bfc43f1-6b2d-4438-a5b0-9daf001178bb">
+<th data-local-id=3D"130857bf-7d8d-46a7-9681-c36dcac2f320" class=3D"conflue=
+nceTh">
+<p local-id=3D"2affefcdb97f"><strong>Create Enterprise Policy</strong></p>
+</th>
+<td data-local-id=3D"59efb7a8-9a85-48b7-8ffd-7aec9b7c61bf" class=3D"conflue=
+nceTd">
+<p local-id=3D"35e1d29fa4bc"><strong><span style=3D"color: rgb(0,102,68);">=
+Azure Resource Group Owner</span></strong></p>
+<ul local-id=3D"980fbfcd-416a-4862-9a79-764fcbebbac7">
+<li local-id=3D"ff72e0c2-1627-4685-bebd-e8dd632d0836">
+<p local-id=3D"6403fa7bf1ad">DNA Dataverse export Resource Groups</p>
+</li>
+</ul>
+</td>
+<td data-local-id=3D"75914bfb-22b5-42ff-87a8-123aeb0597bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"a736f8d4bd6c">Power Platform Admin</p>
+</td>
+<td data-local-id=3D"58230eaa-4601-4f65-8172-3e51a01a97c0" class=3D"conflue=
+nceTd">
+<p local-id=3D"ac8f8b76e8e1">Once per subscription by initial design but po=
+tentially more if demand increases and additional storage accounts are need=
+ed.</p>
+</td>
+</tr>
+<tr data-local-id=3D"4043a7ef-ee12-4329-a9ef-84f46bdccf18">
+<th data-local-id=3D"7a04420e-49bb-4248-ae19-3fb55695faa1" class=3D"conflue=
+nceTh">
+<p local-id=3D"15d3f7172490"><strong>Link Enterprise Policy to Dataverse En=
+vironment</strong></p>
+</th>
+<td data-local-id=3D"b19da7d9-9c7c-474f-95fc-fb378bd9f986" class=3D"conflue=
+nceTd">
+<p local-id=3D"4cc2879a79ee"><strong><span style=3D"color: rgb(7,71,166);">=
+Power Platform Administrator</span></strong><span style=3D"color: rgb(7,71,=
+166);"> </span>(tenant-level)
+<br>
+<strong>Reader on Enterprise Policy</strong> (inherited from Resource Group=
+ Owner)</p>
+</td>
+<td data-local-id=3D"a36ffb83-0c40-4af2-a2ef-bb3d9063ca95" class=3D"conflue=
+nceTd">
+<p local-id=3D"f13bc667bc3c">Power Platform Admin</p>
+</td>
+<td data-local-id=3D"b35718d6-2b50-4cca-8d35-c96ca4fc6291" class=3D"conflue=
+nceTd">
+<p local-id=3D"17c4d5c2125c">Once per Dataverse, but could be be more frequ=
+ently in lower SDLC environments to remove and re-establish links.</p>
+</td>
+</tr>
+<tr data-local-id=3D"814bac60-45ac-495d-aa1f-7c52bb49a8c8">
+<th data-local-id=3D"4cccb850-3328-4abb-811e-0433e87d7986" class=3D"conflue=
+nceTh">
+<p local-id=3D"cdd42ca8c186"><strong>Configure Synapse Link (initial)</stro=
+ng></p>
+</th>
+<td data-local-id=3D"320aed1d-a467-435b-8c50-8522d24fb7b3" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b323a04e0f2"><strong>Dataverse System Administrator</strong=
+>
+<br>
+<strong>Resource Group Reader </strong>(inherited from Resource Group Owner=
+)</p>
+<ul local-id=3D"6ee61d86-e059-4e68-9985-963654ba2041">
+<li local-id=3D"8db7c210-65fa-4505-8d11-87a30ff35ba4">
+<p local-id=3D"efbccbacc8bc">DNA Dataverse export Resource Groups</p>
+</li>
+</ul>
+<p local-id=3D"334b5e2a9a55"><strong><span style=3D"color: rgb(0,102,68);">=
+Storage Account Owner</span></strong></p>
+<ul local-id=3D"b9907637-8878-4053-846d-aaea3f5b2273">
+<li local-id=3D"92a11dd9-662e-4c3a-9ad9-d941516c2898">
+<p local-id=3D"7458b980d956">DNA Dataverse export Storage Accounts</p>
+</li>
+</ul>
+</td>
+<td data-local-id=3D"0e7dae28-4f85-4832-b326-a4f15b31d956" class=3D"conflue=
+nceTd">
+<p local-id=3D"f75f7648e780">Power Platform Admin</p>
+</td>
+<td data-local-id=3D"ce1009ef-5b96-404e-941f-cf71d97f2ae2" class=3D"conflue=
+nceTd">
+<p local-id=3D"e22f812736f5">Once per Dataverse (but could be be more frequ=
+ently in lower SDLC environments.)</p>
+</td>
+</tr>
+<tr data-local-id=3D"b16918b6-451b-4c55-8071-5a52ca3e5f9f">
+<th data-local-id=3D"035077e0-a967-428e-8e01-b64f646fdf69" class=3D"conflue=
+nceTh">
+<p local-id=3D"696f78ead395"><strong>Operate existing Synapse Link after se=
+tup</strong></p>
+</th>
+<td data-local-id=3D"2c7f64f9-1950-4963-b6c6-c705282ebaa7" class=3D"conflue=
+nceTd">
+<p local-id=3D"1feedabb43d7"><strong>Dataverse System Administrator</strong=
+></p>
+</td>
+<td data-local-id=3D"22525017-9447-4650-8a0f-a6e3e1c0a282" class=3D"conflue=
+nceTd">
+<p local-id=3D"58a651244ea8">Dataverse Owner</p>
+</td>
+<td data-local-id=3D"1ff68234-8a48-4f3a-89e1-2073ab860cd4" class=3D"conflue=
+nceTd">
+<p local-id=3D"3cd203067a23">Ongoing. While the configuration is typically =
+static, status and configuration are viewed via the setup UI by the Dataver=
+se admin/owner.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"25963d9ba7af" id=3D"Dynamics365CRMAzurePermissions-ADGroup:=
+">AD Group:</h3>
+<p local-id=3D"b275a275ba11">ACL-DNA-helix_dataversexport_O</p>
+<h3 local-id=3D"d8df26112153" id=3D"Dynamics365CRMAzurePermissions-DNASubsc=
+riptions">DNA Subscriptions</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1266" data-layout=3D"align-start" data-local-id=
+=3D"dfeae0a7-c740-44f9-8d8a-112c0796eb9a" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 318.0px;">
+<col style=3D"width: 316.0px;">
+<col style=3D"width: 316.0px;">
+<col style=3D"width: 316.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"56031f32-4ba5-4f56-8f09-1c3de4c72f7b">
+<th data-local-id=3D"d538e51f-6539-4629-8c74-658c30c83764" class=3D"conflue=
+nceTh">
+<p local-id=3D"dee7f1a16600"><strong>Resource Type</strong></p>
+</th>
+<th data-local-id=3D"9826772d-3347-4a55-abd5-42c48aef9b4f" class=3D"conflue=
+nceTh">
+<p local-id=3D"2b5b1507fe0b"><strong>Resource Name</strong></p>
+</th>
+<th data-local-id=3D"988b0c7e-9b10-4ca9-a793-a73cbb1f6c0f" class=3D"conflue=
+nceTh">
+<p local-id=3D"40859f5dc47a"><strong>Resource ID</strong></p>
+</th>
+<th data-local-id=3D"d255f868-ef17-4931-a003-b1b1f867c2d9" class=3D"conflue=
+nceTh">
+<p local-id=3D"80c87261bc85"><strong>Role</strong></p>
+</th>
+</tr>
+<tr data-local-id=3D"fec41924-b7ad-4cea-a221-d4aa527f1ead">
+<td data-local-id=3D"6f3f9d3e-620e-4025-8227-4a94f1617d9b" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d320f36ebdf">Subscription</p>
+</td>
+<td data-local-id=3D"0be05147-52ba-4507-b399-a4a7b4962d6b" class=3D"conflue=
+nceTd">
+<p local-id=3D"52105f9543be">sub-dna-dv2</p>
+</td>
+<td data-local-id=3D"39ecf062-905f-4852-8887-d6ab0fc20085" class=3D"conflue=
+nceTd">
+<p local-id=3D"7eb69412929f">ARM_SUBSCRIPTION_ID=3De2a7d76d-e8f6-43ec-ad47-=
+397e8bdb0e6e</p>
+</td>
+<td data-local-id=3D"e265353d-67ec-46bc-95e5-959ef537e5c6" class=3D"conflue=
+nceTd">
+<p local-id=3D"d212aed3c44b">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"4215af56-07fb-4d31-a53e-4bd2087e05a7">
+<td data-local-id=3D"68c6ae71-bf7a-4831-8511-b07d1464a62b" class=3D"conflue=
+nceTd">
+<p local-id=3D"9c586d7c4c87">Subscription</p>
+</td>
+<td data-local-id=3D"e05125f1-40f7-4d31-893c-db5a55ff529d" class=3D"conflue=
+nceTd">
+<p local-id=3D"477635ed8cee">sub-dna-it2</p>
+</td>
+<td data-local-id=3D"d5a2df88-98cc-4f7b-91f8-6a103eb87d20" class=3D"conflue=
+nceTd">
+<p local-id=3D"21a4bee47bd7">ARM_SUBSCRIPTION_ID=3D07a73724-6dec-42f1-9ac2-=
+e294e7fa7a8d</p>
+</td>
+<td data-local-id=3D"1369145c-8292-4abb-a5e7-ed8e0e596192" class=3D"conflue=
+nceTd">
+<p local-id=3D"b78909791c66">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"d280b053-04e4-4801-8081-8d99a87db47b">
+<td data-local-id=3D"8b034052-3a49-47ec-add2-a4972e7d75b7" class=3D"conflue=
+nceTd">
+<p local-id=3D"9c5a32d4b21e">Subscription</p>
+</td>
+<td data-local-id=3D"0f0e20e5-f455-46d0-96f3-4a99f46007ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"6b7ac84b3fa2">sub-dna-tt2</p>
+</td>
+<td data-local-id=3D"7585a94e-9924-4c2c-bc9a-52b1c3558768" class=3D"conflue=
+nceTd">
+<p local-id=3D"0f8f53a668f2">ARM_SUBSCRIPTION_ID=3Da20a583e-2cf2-4651-83f1-=
+ffa23a95751c</p>
+</td>
+<td data-local-id=3D"40d31d7b-f27d-4a8a-b411-63318516c283" class=3D"conflue=
+nceTd">
+<p local-id=3D"2e641e97514f">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"3ac9662c-58fe-4b4e-87d6-fa2c23c6e467">
+<td data-local-id=3D"77ef3f4e-e78a-456b-ab17-efe1721d2f60" class=3D"conflue=
+nceTd">
+<p local-id=3D"243f07248875">Subscription</p>
+</td>
+<td data-local-id=3D"09fab7b9-30e0-47e3-b50a-7cf6f32ba851" class=3D"conflue=
+nceTd">
+<p local-id=3D"62443c18a94c">sub-dna-pd2</p>
+</td>
+<td data-local-id=3D"e9f0a26d-3f44-44b5-8059-b0fe6a1e5d47" class=3D"conflue=
+nceTd">
+<p local-id=3D"705c43fb5e51">ARM_SUBSCRIPTION_ID=3D1413c13a-e93b-46ba-ad08-=
+242d8769d371</p>
+</td>
+<td data-local-id=3D"b71e5e22-ecd0-4a26-9efe-1d44fc67c49a" class=3D"conflue=
+nceTd">
+<p local-id=3D"2410824d6815">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"0fb14bde-ddc8-4ffa-bb58-e6636896e7de">
+<td data-local-id=3D"15a66607-27b7-4186-b1ed-fad2294f7a55" class=3D"conflue=
+nceTd">
+<p local-id=3D"65694b22d08c">Resource Group</p>
+</td>
+<td data-local-id=3D"154a38db-ed20-42b2-b466-684a1a394db7" class=3D"conflue=
+nceTd">
+<p local-id=3D"d51b669055e7">use2sto_1004mdpdv2RG</p>
+</td>
+<td data-local-id=3D"ba87272b-1213-4258-b6fe-039a1a3fb839" class=3D"conflue=
+nceTd">
+<p local-id=3D"933b39b27966">/subscriptions/e2a7d76d-e8f6-43ec-ad47-397e8bd=
+b0e6e/resourceGroups/use2sto_1004mdpdv2RG</p>
+</td>
+<td data-local-id=3D"da612dc8-275e-415a-9128-06e1c7ba0e2a" class=3D"conflue=
+nceTd">
+<p local-id=3D"7830fa66cff1">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"9bd45d91-0c32-41cb-a4cb-915b729ad2f5">
+<td data-local-id=3D"de677f29-c4d8-49ce-8257-59ead31a1848" class=3D"conflue=
+nceTd">
+<p local-id=3D"058f4e3a1f33">Resource Group</p>
+</td>
+<td data-local-id=3D"90a3557f-b803-41c6-bd85-9f0d07cbd887" class=3D"conflue=
+nceTd">
+<p local-id=3D"1dce34809473">use2sto_1004mdpit2RG</p>
+</td>
+<td data-local-id=3D"c516af8b-1968-42e2-a24e-945e0479596d" class=3D"conflue=
+nceTd">
+<p local-id=3D"f64c4c0af8cb">/subscriptions/07a73724-6dec-42f1-9ac2-e294e7f=
+a7a8d/resourceGroups/use2sto_1004mdpit2RG</p>
+</td>
+<td data-local-id=3D"b2e61df8-3305-474a-baff-39255ec216f3" class=3D"conflue=
+nceTd">
+<p local-id=3D"d938fee379bd">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"72c59e50-863f-4eeb-ab10-06385af6aa58">
+<td data-local-id=3D"03de4f9d-f184-40e8-9b06-a070edb1a289" class=3D"conflue=
+nceTd">
+<p local-id=3D"a22b8caf9a4e">Resource Group</p>
+</td>
+<td data-local-id=3D"5c1c4932-3d6e-40bb-950a-408ee36a8a00" class=3D"conflue=
+nceTd">
+<p local-id=3D"02e484719133">use2sto_1004mdptt2RG</p>
+</td>
+<td data-local-id=3D"3f9bb13f-29c2-430c-b194-25fa286c70b1" class=3D"conflue=
+nceTd">
+<p local-id=3D"d548c9418ea0">/subscriptions/a20a583e-2cf2-4651-83f1-ffa23a9=
+5751c/resourceGroups/use2sto_1004mdptt2RG</p>
+</td>
+<td data-local-id=3D"35b580d6-a02a-492f-96b9-1ec36618fb9a" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba256ee0fd1f">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"03809d2d-ef25-4f89-8943-0c5bd66e30a6">
+<td data-local-id=3D"c102d365-a116-4208-bb9e-f6ec134f311f" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e8dff4131e9">Resource Group</p>
+</td>
+<td data-local-id=3D"29f67a4f-1594-4faf-bb05-53c4f431ebad" class=3D"conflue=
+nceTd">
+<p local-id=3D"88ea9bcf6400">use2sto_1004mdppd2RG</p>
+</td>
+<td data-local-id=3D"b498ba2a-26ec-4acd-a092-8e88331d99dc" class=3D"conflue=
+nceTd">
+<p local-id=3D"92070ca6121c">/subscriptions/1413c13a-e93b-46ba-ad08-242d876=
+9d371/resourceGroups/use2sto_1004mdppd2RG</p>
+</td>
+<td data-local-id=3D"c26e0ede-346c-463c-80a9-ef94d0806ffb" class=3D"conflue=
+nceTd">
+<p local-id=3D"778052b290f0">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"69cf2ea2-133e-40c3-8f95-c8c3839d705f">
+<td data-local-id=3D"5a9a0d7b-ac4e-4d5a-b5a6-0f55e65f7bf7" class=3D"conflue=
+nceTd">
+<p local-id=3D"14b111285768">Storage Account</p>
+</td>
+<td data-local-id=3D"c389b65c-eda4-41f4-b8b7-3c61ec454934" class=3D"conflue=
+nceTd">
+<p local-id=3D"7ff8c68c8bd9">use2sto1004mdpdv210</p>
+</td>
+<td data-local-id=3D"8d22a3c3-12dd-4350-87d6-8f0414337097" class=3D"conflue=
+nceTd">
+<p local-id=3D"0e09bbcfcca5">/subscriptions/e2a7d76d-e8f6-43ec-ad47-397e8bd=
+b0e6e/resourceGroups/use2sto_1004mdpdv2RG/providers/Microsoft.Storage/stora=
+geAccounts/use2sto1004mdpdv210</p>
+</td>
+<td data-local-id=3D"dccfdab5-3c45-4ed9-aef1-3f1eba4d581c" class=3D"conflue=
+nceTd">
+<p local-id=3D"beaacab14a23">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"52f05573-7dc0-4a2d-b13a-ef9069ff34c5">
+<td data-local-id=3D"4c2cb6f5-3158-4177-9b9a-eca7b26c7961" class=3D"conflue=
+nceTd">
+<p local-id=3D"992fe0635a7e">Storage Account</p>
+</td>
+<td data-local-id=3D"3ef6d7f0-487f-4e96-bdf1-39082e767131" class=3D"conflue=
+nceTd">
+<p local-id=3D"49df48f45db4">use2sto1004mdpit210</p>
+</td>
+<td data-local-id=3D"6aa6e4b9-422e-42df-8c18-d965b811fc90" class=3D"conflue=
+nceTd">
+<p local-id=3D"750cbfc40093">/subscriptions/07a73724-6dec-42f1-9ac2-e294e7f=
+a7a8d/resourceGroups/use2sto_1004mdpit2RG/providers/Microsoft.Storage/stora=
+geAccounts/use2sto1004mdpit210</p>
+</td>
+<td data-local-id=3D"6d07921b-308a-4414-bcb9-1793192bcda1" class=3D"conflue=
+nceTd">
+<p local-id=3D"37a2f14ac4cc">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"11ed404f-be3d-4e9e-a032-d7365d08184e">
+<td data-local-id=3D"1e3106db-10d7-4781-ac08-81fc3fb687a5" class=3D"conflue=
+nceTd">
+<p local-id=3D"cbdde78258ba">Storage Account</p>
+</td>
+<td data-local-id=3D"3eedb64b-a3c1-4143-9978-e04ef87ae9b1" class=3D"conflue=
+nceTd">
+<p local-id=3D"01aeece00061">use2sto1004mdptt210</p>
+</td>
+<td data-local-id=3D"985c775a-0077-47a3-a572-0af244793d71" class=3D"conflue=
+nceTd">
+<p local-id=3D"e141bb459a84">/subscriptions/a20a583e-2cf2-4651-83f1-ffa23a9=
+5751c/resourceGroups/use2sto_1004mdptt2RG/providers/Microsoft.Storage/stora=
+geAccounts/use2sto1004mdptt210</p>
+</td>
+<td data-local-id=3D"62e67bf9-343b-4128-9596-6299ae3fd10e" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0c647cd8598">Owner</p>
+</td>
+</tr>
+<tr data-local-id=3D"0de12152-e87c-49fc-8807-88b85a0a01c1">
+<td data-local-id=3D"09936eb5-f6a4-4fbe-84a2-eda53d8986b5" class=3D"conflue=
+nceTd">
+<p local-id=3D"a3b9c6dec4ff">Storage Account</p>
+</td>
+<td data-local-id=3D"460af63e-43fd-46d8-9633-24911dbf255c" class=3D"conflue=
+nceTd">
+<p local-id=3D"3e5a92330033">use2sto1004mdppd210</p>
+</td>
+<td data-local-id=3D"25055bc1-a2bb-43a3-99e9-111cdcbcd325" class=3D"conflue=
+nceTd">
+<p local-id=3D"d68f5467fb54">/subscriptions/1413c13a-e93b-46ba-ad08-242d876=
+9d371/resourceGroups/use2sto_1004mdppd2RG/providers/Microsoft.Storage/stora=
+geAccounts/use2sto1004mdppd210</p>
+</td>
+<td data-local-id=3D"fd254708-25ed-48f8-a6ad-b84a4003040f" class=3D"conflue=
+nceTd">
+<p local-id=3D"0817f6a5e3b8">Owner</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_8_750640493.1793974296214--

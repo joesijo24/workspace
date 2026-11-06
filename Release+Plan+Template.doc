@@ -1,0 +1,474 @@
+Date: Fri, 6 Nov 2026 14:14:37 +0000 (UTC)
+Message-ID: <123490731.13.1793974477090@2c0acfada1f2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_2035105296.1793974477089"
+
+------=_Part_12_2035105296.1793974477089
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Release Plan Template</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Release Plan Template</h1>
+    <div class=3D"Section1">
+        <h1 local-id=3D"889c50c5-9cc4-4763-b647-b06ce84e7de8" id=3D"Release=
+PlanTemplate-WRB=E2=80=93D365Release1">WRB =E2=80=93 D365 Release 1</h1>
+<p local-id=3D"1dc74514-9b33-4f32-8e29-d88a667f86ed">&nbsp;</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"9c=
+08ee9d-fd62-4b74-bb40-24dc196b9285" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"2d7a0681-1d72-4ec7-a7b9-69341107e720">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"f17689c1-10ca-4384-9=
+f70-9ba625b5871d" class=3D"confluenceTd">
+<p local-id=3D"baa560f2-259c-40af-9cd5-1d4ae1b062d9"><strong>Change Request=
+</strong></p>
+</td>
+<td data-local-id=3D"54f66911-cf4c-4f64-a881-fe2aff5d5682" class=3D"conflue=
+nceTd">
+<p local-id=3D"896221ba-a071-4daf-ac2f-ebed783bf65f">&nbsp;CHG000001</p>
+</td>
+</tr>
+<tr data-local-id=3D"af12a9c2-66ee-4e06-aa2e-632f51f212df">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"40aa166f-ee21-4e2e-a=
+cd8-c69dde3b130b" class=3D"confluenceTd">
+<p local-id=3D"f0ddc270-24e6-45ec-af1d-2e17369a87b7"><strong>Date</strong><=
+/p>
+</td>
+<td data-local-id=3D"f5079e07-5460-41b2-985c-4abac00bf092" class=3D"conflue=
+nceTd">
+<p local-id=3D"264ee317-31c1-4ee3-96e8-4a7757c44d4c">&nbsp;</p>
+</td>
+</tr>
+<tr data-local-id=3D"c3ccfaaa-eff2-46b1-abaf-b5b016d86513">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"2dc587fa-c71d-43f5-9=
+1df-354afb7f1eb6" class=3D"confluenceTd">
+<p local-id=3D"868b9b62-3ec0-4f9a-b4fe-bb5ddf48493c"><strong>Sprint</strong=
+></p>
+</td>
+<td data-local-id=3D"a594779f-1ec2-40f7-a77d-7db3cc5e971a" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f248b18-e60d-463e-bf98-025c02ce9a91">&nbsp;Sprint 3</p>
+</td>
+</tr>
+<tr data-local-id=3D"4818ea5f-ea62-426d-b5c0-21bc99329e5b">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"92cc3a4e-f66e-4122-9=
+518-e739fabe0c59" class=3D"confluenceTd">
+<p local-id=3D"ccd4aa4d-3c72-4e15-86ac-839a4ddf4dfa"><strong>Release Manage=
+r</strong></p>
+</td>
+<td data-local-id=3D"d0c9ea5f-c5ef-47e9-8a81-c762161bddf8" class=3D"conflue=
+nceTd">
+<p local-id=3D"bc68d87d-b3c9-40b7-8ddc-c219f191a47d">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"c93da6b9-c6b4-40f0-a727-3722656c335a">&nbsp;Release Query</p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">project=
+ =3D 10102
+and (worktype =3D Defect or worktype =3D story) and ((status In("Ready for =
+Release", "IN UAT") AND updated&gt;=3D startOfMonth()) or (status IN (Close=
+d) and (resolved &gt;=3D "2026-08-13" and resolved &lt; "2026-08-14" )))
+and (parent =3D MATT-14822
+or parent =3D MATT-14816 or parent =3D MATT-14604)=20
+ORDER BY priority DESC, updated ASC</pre>
+</div>
+</div>
+<p local-id=3D"0c0f233252df">Closed Query</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">project=
+ =3D 10102
+and (worktype =3D Defect or worktype =3D story) and (status IN (Closed) and=
+ (resolved &gt;=3D "2026-08-13" and resolved &lt; "2026-08-15" ))
+and (parent =3D MATT-14822
+or parent =3D MATT-14816 or parent =3D MATT-14604)=20
+ORDER BY priority DESC, updated ASC</pre>
+</div>
+</div>
+<h1 local-id=3D"51b2e976-c507-4020-8ee6-63d751f4d0db" id=3D"ReleasePlanTemp=
+late-Items">Items</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d4=
+c41adb-763c-4409-8d8e-aa82970e96df" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 116.0px;">
+<col style=3D"width: 175.0px;">
+<col style=3D"width: 325.0px;">
+<col style=3D"width: 140.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"d95a6801-99c8-4743-a913-d5278bd3042c">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"768e3efc-e24e-4c30-a=
+6ef-36fd4b22c308" class=3D"confluenceTd">
+<p local-id=3D"de16dd75-871e-4c24-b75b-ecac01109a0e"><strong>JIRA #</strong=
+></p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"306cf277-c3d2-487e-9=
+d37-785fe60e58ad" class=3D"confluenceTd">
+<p local-id=3D"0bea2b0a-2cb6-4933-8032-dfec655c3ae8"><strong>Status</strong=
+></p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"167641fc-a0bc-46b7-b=
+3d3-5f89c7606b23" class=3D"confluenceTd">
+<p local-id=3D"2be37675-f94c-47b9-8643-a6d5289073b4"><strong>Title</strong>=
+</p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"f0f9ea4c-ad30-472c-8=
+2b5-731508178bb4" class=3D"confluenceTd">
+<p local-id=3D"696008b9-485b-4310-aec1-53e61de95b3c"><strong>Owner</strong>=
+</p>
+</td>
+</tr>
+<tr data-local-id=3D"240f16db-d7cc-4ad8-bc05-6033fda15208">
+<td data-highlight-colour=3D"white" data-local-id=3D"9b4260fd-d0d8-472e-915=
+0-e8bcf67003cb" class=3D"confluenceTd">
+<p local-id=3D"08288219-a17a-40d1-9912-4da69c5374b5"><strong>&nbsp;</strong=
+></p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"ee706b35-c1b4-4be1-886=
+b-bcfc7ee04677" class=3D"confluenceTd">
+<p local-id=3D"84ec3aaa-ee19-423d-a877-d73ccbdd0e2c"></p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"5ed72258-f250-4213-ab9=
+4-52de9c8a73a5" class=3D"confluenceTd">
+<p local-id=3D"39f3ac70-13fd-44fe-97a0-b69cce970734">&nbsp;</p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"1fb4d821-8f28-44be-a11=
+f-7ef5909304bf" class=3D"confluenceTd">
+<p local-id=3D"8dc89506-5b97-44b8-adc1-330635bac0ff">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 local-id=3D"76ce3214-72db-4b50-ae5c-dff756a082a7" id=3D"ReleasePlanTemp=
+late-SolutionFile(s):">Solution File(s):</h1>
+<p local-id=3D"e7006269-c5fd-4bf3-87aa-5b024d9e65ad">WRB_Configurations</p>
+<p local-id=3D"d4f1e092-e508-40ca-984a-6fc5a2210246">WRB_Automations</p>
+<p local-id=3D"93eef1cd-6b2e-485e-8fdf-0f6fd2388d48"></p>
+<h1 local-id=3D"03bf0b21-8a2d-413e-90c5-4bb4106fef64" id=3D"ReleasePlanTemp=
+late-SolutionComponent(s):">Solution Component(s):</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1011" data-layout=3D"center" data-local-id=3D"7e=
+c71271-3a3e-4155-a7d1-5ae4d4101d32" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 296.0px;">
+<col style=3D"width: 186.0px;">
+<col style=3D"width: 349.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"2a145e25-9c28-4f1d-b9f6-35a00c7730b0">
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"df545e00-1f89-4e41-a=
+866-cac5fa0e587a" class=3D"confluenceTd">
+<p local-id=3D"ab82095a-a052-4c5e-bd4f-a1af856e2376"><strong>JIRA #</strong=
+></p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"8d312f3b-0481-4ceb-b=
+1e0-88ecfe39a575" class=3D"confluenceTd">
+<p local-id=3D"ad4e9363-c9a3-4eb7-a715-3fe40e3a9d8e"><strong>Title</strong>=
+</p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"d28d6567-d6de-48c4-a=
+393-fe1e26108bd5" class=3D"confluenceTd">
+<p local-id=3D"969746f0-2d6a-4bf6-9711-03c6d4b29330"><strong>Sln File Name<=
+/strong></p>
+</td>
+<td data-highlight-colour=3D"#d9d9d9" data-local-id=3D"a65f7071-1b62-4c01-9=
+178-4da90d00a917" class=3D"confluenceTd">
+<p local-id=3D"7153dad5-782a-4994-a558-0d23a6079548"><strong>Components</st=
+rong></p>
+</td>
+</tr>
+<tr data-local-id=3D"9b59d4d6-66b8-42c3-979a-9fe3c15cf617">
+<td data-highlight-colour=3D"white" data-local-id=3D"184210fe-9596-458b-955=
+d-506961d9d136" class=3D"confluenceTd">
+<p local-id=3D"eb0088b4-3992-466e-8871-85efc006a07e"><strong>&nbsp;</strong=
+>MATT-1111</p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"53b5c499-8585-4ea5-8c4=
+4-460f814907a5" class=3D"confluenceTd">
+<p local-id=3D"d81fb16c-7290-4e00-a57f-fc12b78959c7"></p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"0c975887-470b-4dfe-965=
+c-068d07715977" class=3D"confluenceTd">
+<p local-id=3D"34075627-a156-4d1c-a3d6-aeadf33df927"></p>
+</td>
+<td data-highlight-colour=3D"white" data-local-id=3D"72fc5df2-a595-4fcb-963=
+7-fb8fb2e2b7bb" class=3D"confluenceTd">
+<p local-id=3D"cbe36093-0ec2-4429-b7bd-c49508eb55a0"></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"4629dd4f-eb27-412d-9203-0c1a916fce51"></p>
+<h1 local-id=3D"671857ef-7523-4615-97e7-0e46d83d3730" id=3D"ReleasePlanTemp=
+late-Pre-DeploymentSteps:">Pre-Deployment Steps:</h1>
+<ol start=3D"1" local-id=3D"b12fba60-b203-4805-baa7-1c31f3ae0210">
+<li local-id=3D"5b168751-eb48-44c4-bdf9-4b9564c23a94">
+<p local-id=3D"4fae1224-2f70-4adc-82c9-3c0f2a5174c5">Backup Solution(s)</p>
+</li>
+<li local-id=3D"76412e2e-555d-4049-86c5-c63a15d6fc1b">
+<p local-id=3D"84e5cae3-e28d-4593-a3f7-d9cebcb0271b">Move Config Data</p>
+</li>
+</ol>
+<p local-id=3D"e442fbf3-99a4-4c5b-adad-6f9635c65533"></p>
+<h1 local-id=3D"ac9a60a7-6fe0-430d-895f-17aff586631b" id=3D"ReleasePlanTemp=
+late-Post-DeploymentSteps:">Post-Deployment Steps:</h1>
+<ol start=3D"1" local-id=3D"31689e6b-6414-425a-9bb3-6b904b666a7b">
+<li local-id=3D"a288a3be-99a9-4194-8188-f8c8f17fb039">
+<p local-id=3D"e97d5cc9-90da-4592-a7c2-a5e1ddfd02f1">Publish All Customizat=
+ions</p>
+</li>
+<li local-id=3D"7405807a-b70e-4c55-822a-957d7df50540">
+<p local-id=3D"641a9c93-beb4-4029-a974-86d60480b5ba">Update Environment Var=
+iables</p>
+</li>
+<li local-id=3D"799aa426-412e-4971-97e4-668a720f9289">
+<p local-id=3D"4fe19715-9c82-48a9-8f65-08181977118c">Turn on PA Flows</p>
+</li>
+</ol>
+<p local-id=3D"1d37d1a4-d004-466f-81df-9d54a1d4ba5a"></p>
+<h1 local-id=3D"59c4b659-a016-4ff5-a8f7-d62be97ce7a2" id=3D"ReleasePlanTemp=
+late-RollbackPlan:">Rollback Plan:</h1>
+<ol start=3D"1" local-id=3D"9f0e83a3-7be5-4e12-9a46-b3b39c22eb02">
+<li local-id=3D"1b125f6c-9461-4600-9269-586a4933f831">
+<p local-id=3D"b0176c46-6f19-418d-903d-9d45e6dd2520">Solution Import</p>
+</li>
+<li local-id=3D"f2e0f978-e1a5-4d67-9b52-c0592dd6df28">
+<p local-id=3D"5ba4c8b8-c637-46e1-9ebe-7c0af211831a">Environment Restore fr=
+om Admin Center</p>
+</li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_12_2035105296.1793974477089--

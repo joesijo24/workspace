@@ -1,0 +1,499 @@
+Date: Fri, 6 Nov 2026 14:11:18 +0000 (UTC)
+Message-ID: <1342189068.21.1793974278254@2e7dc8f8bab4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_1012083249.1793974278253"
+
+------=_Part_20_1012083249.1793974278253
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Dynamics 365 CRM Synapse Links</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Dynamics 365 CRM Synapse Links</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"c4b31f510451" id=3D"Dynamics365CRMSynapseLinks-Depl=
+oymentConsiderations">Deployment Considerations</h2>
+<p local-id=3D"12dcd7485781">Each Synapse Link must be manually configured =
+via the Power Apps UI, no Terraform or Powershell options are documented.</=
+p>
+<ul local-id=3D"b805f86339bd">
+<li local-id=3D"955eddadecde">
+<p local-id=3D"561ac482d67c">The user creating the synapse link must have S=
+ystem Administrator permission on the Dataverse environment.</p>
+</li>
+<li local-id=3D"a115341dbebe">
+<p local-id=3D"ee2a42f497d1">The user creating the synapse link must have O=
+wner permission on the target Storage Account. This permission is strictly =
+controlled and only granted to BTS Cloud Team or the DNA OPS Team temporari=
+ly.</p>
+<ul local-id=3D"43d5dd95319a">
+<li local-id=3D"981527a055d2">
+<p local-id=3D"9cb082ba0793">The process of creating the initial connection=
+ configuration leverages the UI users identity and permissions to obtain th=
+e Account Key to the Storage Account and then sets permissions for the Mana=
+ged Identity associated with the Enterprise Policy linked to the Dataverse =
+database so that it can read/write to the Storage Account.</p>
+</li>
+</ul>
+</li>
+<li local-id=3D"5025f7265319">
+<p local-id=3D"fca2a43a5685">The creation process dynamically names and cre=
+ates the Storage Container within the Storage Account, the name of the Stor=
+age Container cannot be set or predicted. The name follows the pattern data=
+verse-&lt;formatted dataverse name&gt;-&lt;unique id&gt;</p>
+</li>
+<li local-id=3D"e6593d4905af">
+<p local-id=3D"299cc02ff686">Once the link is initially created, any Datave=
+rse user with System Administrator can make changes to it (although under t=
+he recommended settings for Databricks Lakeflow Connect there are not setti=
+ngs that can be modified once initially configured).</p>
+</li>
+</ul>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"5=
+68ebbec-4129-46f3-937b-d0053d7e76bc" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 371.0px;">
+<col style=3D"width: 201.0px;">
+<col style=3D"width: 409.0px;">
+<col style=3D"width: 184.0px;">
+<col style=3D"width: 635.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"ec589be7cf79">
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"a4ea5b1bc329" class=
+=3D"confluenceTd">
+<p local-id=3D"9c56982f0a9e">Component Type</p>
+</td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"c2d825d67436" class=
+=3D"confluenceTd">
+<p local-id=3D"57a075f567f9">Environment</p>
+</td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"512e8ff7772f" class=
+=3D"confluenceTd">
+<p local-id=3D"0bc50c12eecf">Component Name</p>
+</td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"66a08c48faa0" class=
+=3D"confluenceTd">
+<p local-id=3D"61f469cf2e65">Owner/Editor</p>
+</td>
+<td data-highlight-colour=3D"#f4f5f7" data-local-id=3D"649acb5943ee" class=
+=3D"confluenceTd">
+<p local-id=3D"d1da150f5ba3">Key Configuration Attributes</p>
+</td>
+</tr>
+<tr data-local-id=3D"e4f77de5-9f7b-4855-9e5d-a1e0ffee9141">
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"1682d2f3-9361-41dc-a=
+e61-6071d53033d3" class=3D"confluenceTd">
+<p local-id=3D"c0d32546c635">Synapse Links</p>
+</td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"3f8dacde-ddbf-4cf6-8=
+997-dac7c4daaa09" class=3D"confluenceTd">
+<p local-id=3D"7d4a7087bee5">&nbsp;</p>
+</td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"ba90ebea-c3d6-4bb0-b=
+1e8-8333cbf6e506" class=3D"confluenceTd">
+<p local-id=3D"852003d9704e">&nbsp;</p>
+</td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"1e36826d-f472-4aa1-8=
+f34-2b7949577171" class=3D"confluenceTd">
+<p local-id=3D"ba2fa8cad91e">&nbsp;</p>
+</td>
+<td data-highlight-colour=3D"#b3d4ff" data-local-id=3D"7f0f7ca6-147a-4c7e-b=
+2a7-b64d81afc3a5" class=3D"confluenceTd">
+<p local-id=3D"bc27c8ab2b29">&nbsp;</p>
+</td>
+</tr>
+<tr data-local-id=3D"b295de2b-eb00-4c93-a117-d5925fc45e2f">
+<td data-highlight-colour=3D"#e3fcef" data-local-id=3D"81ef66f5-4fbf-488a-a=
+d7e-6a7db81f2e03" class=3D"confluenceTd">
+<p local-id=3D"b05fbaa4f64e">Synapse Link</p>
+</td>
+<td data-highlight-colour=3D"#e3fcef" data-local-id=3D"3510dcef-4972-4650-b=
+e70-d06d29bd5350" class=3D"confluenceTd">
+<p local-id=3D"d600ba232607">POC</p>
+</td>
+<td data-highlight-colour=3D"#e3fcef" data-local-id=3D"e7b58d42-1851-42cb-b=
+b16-70130adb77d9" class=3D"confluenceTd">
+<p local-id=3D"4a046d9bad96">use2sto004mdpdv209</p>
+</td>
+<td data-highlight-colour=3D"#e3fcef" data-local-id=3D"38ed2c28-37a7-4f3f-9=
+ac8-57c96d183e63" class=3D"confluenceTd">
+<p local-id=3D"7e56f180a6ba">DNA</p>
+</td>
+<td data-highlight-colour=3D"#e3fcef" data-local-id=3D"28b53a64-0939-4c6a-9=
+5b7-fae17548768e" class=3D"confluenceTd">
+<p local-id=3D"4e4381f8e944">Storage Account Subscription: sub-dna-dv2</p>
+<p local-id=3D"b73b55f5b5cc">Storage Account Resource Group: use2sto004mdpd=
+v2RG</p>
+<p local-id=3D"29eaa634f32b">Storage Account: use2sto004mdpdv209</p>
+<p local-id=3D"232b158c90e1">Storage Container: dataverse-dnasandboxde-unqf=
+6341a8f6ba5f1118add6045bd073</p>
+<p local-id=3D"d1b6dd2ba425">Use Managed Identity: True</p>
+<p local-id=3D"152498e487cb">Enable Incremental Update Folder Structure: Tr=
+ue</p>
+<p local-id=3D"125b6a2554b1">Time interval (in minutes): 60</p>
+</td>
+</tr>
+<tr data-local-id=3D"43473944-611a-473b-9e4b-9da0dbd3ee8e">
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"d9e3bdac-a1a1-4069-a=
+084-313e489f8ca5" class=3D"confluenceTd">
+<p local-id=3D"7476e623ff1f">Synapse Link</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"c1598fd8-b601-4968-a=
+8f1-159d9cf44a80" class=3D"confluenceTd">
+<p local-id=3D"f99659133dae">DEV</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"8fcccfc7-1a96-417f-b=
+263-84953a35a093" class=3D"confluenceTd">
+<p local-id=3D"0abc4935c293">use2sto1004mdpdv210</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"0db499de-220a-4311-8=
+761-6d559d3e3e03" class=3D"confluenceTd">
+<p local-id=3D"1256e28cf7dc">Dataverse Owner</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"9abd8789-cfcd-4711-a=
+135-951a354ceebb" class=3D"confluenceTd">
+<p local-id=3D"a9db31acc154">Storage Account Subscription: sub-dna-dv2</p>
+<p local-id=3D"806daaad5a4a">Storage Account Resource Group: use2sto_1004md=
+pdv2RG</p>
+<p local-id=3D"214750a46f3a">Storage Account: use2sto1004mdpdv210</p>
+<p local-id=3D"81f4e078a1ce">Storage Container: <a class=3D"external-link" =
+href=3D"https://portal.azure.com/#@5f2f4ea8-f1ba-4234-898c-c4ae4a4c70bb/res=
+ource/subscriptions/e2a7d76d-e8f6-43ec-ad47-397e8bdb0e6e/resourceGroups/use=
+2sto_1004mdpdv2RG/providers/Microsoft.Storage/storageAccounts/use2sto1004md=
+pdv210/storagebrowser" rel=3D"nofollow">dataverse-wrbdynamicsc-unq33e51c5ea=
+f91f111b8cf6045bd056</a></p>
+<p local-id=3D"0d6a0587894b">Use Managed Identity: True</p>
+<p local-id=3D"97f4eb75537e">Enable Incremental Update Folder Structure: Tr=
+ue</p>
+<p local-id=3D"a4631750d732">Time interval (in minutes): 60</p>
+<p local-id=3D"a1ec0f0c094a">Tables 39 of 1052</p>
+</td>
+</tr>
+<tr data-local-id=3D"0c226f4e-c97f-45f1-8b1f-7d59d3a2f9e8">
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"f918889d-f251-4c53-a=
+4a7-59a81d07734b" class=3D"confluenceTd">
+<p local-id=3D"b446dd9201df">Synapse Link</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"845e135f-b757-4ea4-8=
+f35-75898377f9a2" class=3D"confluenceTd">
+<p local-id=3D"999a52e7db73">INT</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"95e6e734-10be-4d0d-b=
+0c0-43ae4fa2c2ed" class=3D"confluenceTd">
+<p local-id=3D"1c777182a162">use2sto1004mdpit210</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"b28978ed-a24e-4c8d-a=
+e9b-fa7fb231c6df" class=3D"confluenceTd">
+<p local-id=3D"4a8816408cb1">Dataverse Owner</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"2a40d8f7-049b-4f07-a=
+53e-2043929ba02b" class=3D"confluenceTd">
+<p local-id=3D"357ebdeb1c9c">&nbsp;Storage Account Subscription: sub-dna-it=
+2</p>
+<p local-id=3D"595748c73199">Storage Account Resource Group: use2sto_1004md=
+pit2RG</p>
+<p local-id=3D"08efd142d34d">Storage Account: use2sto1004mdpit210</p>
+<p local-id=3D"d882fcd6c78d">Storage Container:</p>
+<p local-id=3D"9048dd728e4a">Use Managed Identity: True</p>
+<p local-id=3D"32f281650cea">Enable Incremental Update Folder Structure: Tr=
+ue</p>
+<p local-id=3D"0a71da8e4acc">Time interval (in minutes):</p>
+<p local-id=3D"445a407966de">Tables 31 of 1032</p>
+</td>
+</tr>
+<tr data-local-id=3D"faa6247d-bb20-4cbf-b661-0801870b44c4">
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"249b9f5d-fc58-4113-b=
+4d1-a98928ed3433" class=3D"confluenceTd">
+<p local-id=3D"e95b793a70c9">Synapse Link</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"0cd09cfb-c31d-4ace-b=
+c5c-a9e79a2e70b9" class=3D"confluenceTd">
+<p local-id=3D"518f0c9beb89">TEST</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"b9ce9210-fdef-4506-8=
+bdd-77cffcef5480" class=3D"confluenceTd">
+<p local-id=3D"af74c19be6e2">use2sto1004mdptt210</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"77e4a86b-b5e8-4804-b=
+efd-e819648b880d" class=3D"confluenceTd">
+<p local-id=3D"fc34e75c8e4a">Dataverse Owner</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"f8d2978b-3170-4f89-b=
+564-19362f2f9992" class=3D"confluenceTd">
+<p local-id=3D"ac3e4fd97687">&nbsp;Storage Account Subscription: sub-dna-tt=
+2</p>
+<p local-id=3D"fa71c0326188">Storage Account Resource Group: use2sto_1004md=
+ptt2RG</p>
+<p local-id=3D"77017c3a33b7">Storage Account: use2sto1004mdptt210</p>
+<p local-id=3D"20970458ff04">Storage Container: <a class=3D"external-link" =
+href=3D"https://portal.azure.com/#@5f2f4ea8-f1ba-4234-898c-c4ae4a4c70bb/res=
+ource/subscriptions/a20a583e-2cf2-4651-83f1-ffa23a95751c/resourceGroups/use=
+2sto_1004mdptt2RG/providers/Microsoft.Storage/storageAccounts/use2sto1004md=
+ptt210/storagebrowser" rel=3D"nofollow">dataverse-wrbdynamicsc-unqe0e0e7e1e=
+948f011be506045bd016</a></p>
+<p local-id=3D"51043120f744">Use Managed Identity: True</p>
+<p local-id=3D"55812dcd74ae">Enable Incremental Update Folder Structure: Tr=
+ue</p>
+<p local-id=3D"7a985b26f1e3">Time interval (in minutes): 60</p>
+<p local-id=3D"14acb7fef403">Tables 35 of 1024</p>
+</td>
+</tr>
+<tr data-local-id=3D"14a3223e-0eda-4346-9d82-fe0fc86df799">
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"34276970-bb11-480b-a=
+ad7-a9e12cb01f7e" class=3D"confluenceTd">
+<p local-id=3D"ea77414808d2">Synapse Link</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"ce6f6793-068d-46d6-a=
+b75-98fb7e944f79" class=3D"confluenceTd">
+<p local-id=3D"9fe06005be6c">PROD</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"550018a9-7c0a-4db0-9=
+1b4-46e370880d0b" class=3D"confluenceTd">
+<p local-id=3D"564f5b7c5fee">use2sto1004mdppd210</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"79cc5af9-a6dc-4b34-9=
+f1e-048fb0e0c1fd" class=3D"confluenceTd">
+<p local-id=3D"6441821246c4">Dataverse Owner</p>
+</td>
+<td data-highlight-colour=3D"#ffffff" data-local-id=3D"7e729277-bbd4-49ce-9=
+d7e-209838757ffa" class=3D"confluenceTd">
+<p local-id=3D"ad2590b7c9af">&nbsp;Storage Account Subscription: sub-dna-pd=
+2</p>
+<p local-id=3D"093299ee256d">Storage Account Resource Group: use2sto_1004md=
+ppd2RG</p>
+<p local-id=3D"c7949e1ba018">Storage Account: use2sto1004mdppd210</p>
+<p local-id=3D"9b8d781dc54d">Storage Container:</p>
+<p local-id=3D"3625dc51616d">Use Managed Identity: True</p>
+<p local-id=3D"ac36016c77a2">Enable Incremental Update Folder Structure: Tr=
+ue</p>
+<p local-id=3D"bca97d1b0181">Time interval (in minutes):</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_20_1012083249.1793974278253--
